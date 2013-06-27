@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/progress_bar_bg"
+    android:paddingBottom="10.0dip"
+    android:paddingTop="20.0dip" >
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@style/progressBarStyleSmall"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/progress_msg"
+        android:layout_width="120.0dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress"
+        android:layout_marginTop="10.0dip"
+        android:gravity="center"
+        android:text="加载中"
+        android:textColor="@android:color/white"
+        android:textSize="18.0sp" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_title_FrameLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/top_title"
+        android:layout_width="fill_parent"
+        android:layout_height="46dip"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/ui_title_bg_blue"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="20.0sp" />
+
+    <Button
+        android:id="@+id/title_bt_left"
+        android:layout_width="36dip"
+        android:layout_height="32dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dip"
+        android:background="@drawable/ui_title_back_btn_blue"
+        android:textColor="@color/white" >
+    </Button>
+
+    <Button
+        android:id="@+id/title_bt_right"
+        android:layout_width="50dip"
+        android:layout_height="32dip"
+        android:layout_marginRight="8dip"
+        android:visibility="gone"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/ui_title_loginout_btn_blue"
+        android:textColor="@color/white" >
+    </Button>
+    
+</FrameLayout>

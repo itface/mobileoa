@@ -1,0 +1,84 @@
+# view AndroidManifest.xml #generated:80
+-keep class koa.android.demo.AddsignActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class koa.android.demo.DownloadHelper { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class koa.android.demo.HistoryListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class koa.android.demo.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class koa.android.demo.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class koa.android.demo.OpinionHistoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class koa.android.demo.SendNextActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:124
+-keep class koa.android.demo.SettingServiceIPActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class koa.android.demo.TodoListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class koa.android.demo.TodoListAllActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class koa.android.demo.TodoListWebActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class koa.android.demo.UISettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class koa.android.demo.UISettingFrameActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class koa.android.demo.UISettingSelectTheme { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class koa.android.demo.WFMessagePageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class koa.android.demo.WFSubListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class koa.android.demo.WfAddNoticeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class koa.android.demo.WfAddsignActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class koa.android.demo.WfAddsignOpinionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class koa.android.demo.WfCancelActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class koa.android.demo.WfExamActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class koa.android.demo.WfFormViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class koa.android.demo.WfNoticeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class koa.android.demo.WfPageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class koa.android.demo.WfReadActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class koa.android.demo.noticeListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class koa.android.logic.MainService { <init>(...); }
+
+# view res/layout/todolistall.xml #generated:19
+-keep class koa.android.logic.PullToRefreshListView { <init>(...); }
+

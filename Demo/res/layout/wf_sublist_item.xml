@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/wf_sublist_L"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wf_detail_button_bar_bg"
+    android:orientation="vertical"
+    android:paddingBottom="8.0dip"
+    android:paddingTop="8.0dip" 
+    android:paddingLeft="14dip"
+    android:paddingRight="14dip">
+</LinearLayout>

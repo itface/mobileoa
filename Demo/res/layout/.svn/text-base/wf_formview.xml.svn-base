@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+    <include android:id="@+id/process_title" layout="@layout/title_two_button"/>
+    <WebView 
+	  android:id="@+id/wf_formview" 
+	  android:layout_height="fill_parent" 
+	  android:layout_width="fill_parent" 
+	  android:focusable="false"
+	 /> 
+</LinearLayout>

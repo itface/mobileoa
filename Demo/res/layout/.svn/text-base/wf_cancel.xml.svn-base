@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wf_cancel_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wf_detail_button_bar_bg" >
+    
+    <include
+        android:id="@+id/process_title"
+        layout="@layout/title_two_button" />
+    
+	<RelativeLayout
+        android:id="@+id/opinion_text_area"
+        android:layout_below="@id/process_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/opinion_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            android:inputType="textMultiLine"
+            android:background="@drawable/wf_cancal_edit_bg"
+            android:hint="请填写流程收回原因"
+            android:padding="5dip"
+            android:textColor="@null"
+            android:focusable="true"
+            android:textSize="16.0sp" />
+    </RelativeLayout>
+    
+	<RelativeLayout
+        android:id="@+id/wf_detail_button_bar_devider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opinion_text_area"
+        android:layout_marginBottom="15dip"
+        android:layout_marginTop="15dip" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wf_detail_button_bar_devider" />
+    </RelativeLayout>
+    
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wf_detail_button_bar_devider"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/cancelActionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/wf_sendnext_btn"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+	        android:textSize="16.0sp"
+            android:text="收 回" />
+	    
+	</RelativeLayout>
+</RelativeLayout>

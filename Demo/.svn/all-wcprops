@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/aws.android/!svn/ver/86/trunk
+END
+proguard-android.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/aws.android/!svn/ver/73/trunk/proguard-android.txt
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/aws.android/!svn/ver/3/trunk/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/aws.android/!svn/ver/73/trunk/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/aws.android/!svn/ver/3/trunk/.project
+END
+proguard-project.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/aws.android/!svn/ver/3/trunk/proguard-project.txt
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/aws.android/!svn/ver/86/trunk/AndroidManifest.xml
+END
+KOA-sign
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/aws.android/!svn/ver/74/trunk/KOA-sign
+END

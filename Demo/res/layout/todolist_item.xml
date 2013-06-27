@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wf_list_item_bg"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingTop="3.0dip" >
+
+    <RelativeLayout
+        android:layout_width="20dip"
+        android:layout_height="14dip"
+        android:layout_weight="0.0"
+        android:layout_marginLeft="4dip"
+        android:layout_marginTop="10dip" >
+
+        <ImageView
+            android:id="@+id/Msg_isRead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        android:padding="3.0dip" >
+
+        <TextView
+            android:id="@+id/taskOwner"
+            android:layout_width="wrap_content"
+            android:layout_height="29.0dip"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/black"
+            android:textSize="18.0sp" />
+
+        <TextView
+            android:id="@+id/taskDate"
+            android:layout_width="wrap_content"
+            android:layout_height="29.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="4.0dip"
+            android:paddingTop="5.0dip"
+            android:textColor="@color/lightgrey"
+            android:textSize="12.0sp" />
+
+        <ImageView
+            android:id="@+id/taskDateImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/taskDate"
+            android:layout_marginLeft="4.0dip"
+            android:paddingTop="5.0dip"
+            android:src="@drawable/wf_list_item_date_icon" />
+
+        <Button
+		    android:id="@+id/wf_list_item_cancel_button"
+		    android:visibility="gone"
+		    android:layout_width="45dip"
+		    android:layout_height="26.0dip"
+		    android:layout_below="@id/taskOwner"
+		    android:layout_alignParentRight="true"
+		    android:focusable = "false"
+		    android:layout_centerVertical="true"
+		    android:background="@drawable/wf_list_cancle_btn_blue">
+        </Button>
+        
+        <TextView
+            android:id="@+id/flowTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/taskOwner"
+            android:layout_toLeftOf="@id/wf_list_item_cancel_button"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="@color/lightgrey"
+            android:textSize="14.0sp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sendnext_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wf_detail_button_bar_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/process_title"
+        layout="@layout/title_two_button" />
+
+    <EditText
+        android:id="@+id/Service_ip_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="20.0dip"
+        android:digits="1234567890abcdef.:："
+        android:dropDownHeight="150.0dip"
+        android:hint="访问码"
+        android:inputType="textVisiblePassword"
+        android:singleLine="true" />
+
+    <RelativeLayout
+        android:id="@+id/wf_detail_button_bar_devider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wf_detail_button_bar_devider" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:scrollbars="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/service_ip_log_area"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip" >
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

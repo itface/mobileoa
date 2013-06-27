@@ -1,0 +1,1811 @@
+koa.android.demo.AddsignActivity -> koa.android.demo.AddsignActivity:
+    android.widget.Button title_bt_left -> a
+    android.widget.TextView top_title -> b
+    android.widget.Button transBtn -> c
+    android.content.Intent intent -> d
+    android.widget.TextView tvStepName -> e
+    android.widget.AutoCompleteTextView sender -> f
+    android.app.ProgressDialog pd -> g
+    java.lang.String sessionId -> h
+    android.widget.RelativeLayout wf_priority_area -> i
+    android.graphics.drawable.Drawable wfSenderClear -> j
+    android.view.GestureDetector mGestureDetector -> k
+    android.widget.LinearLayout sendnext_layout -> l
+    android.widget.TextView wf_sendnext_title_text -> m
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void setBackground() -> d
+    void setUpView() -> a
+    void setUpViewListener() -> b
+    void init() -> c
+    void refresh(java.lang.Object[]) -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    boolean onDown(android.view.MotionEvent) -> onDown
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    void onLongPress(android.view.MotionEvent) -> onLongPress
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+    void onShowPress(android.view.MotionEvent) -> onShowPress
+    boolean onSingleTapUp(android.view.MotionEvent) -> onSingleTapUp
+    void access$0(koa.android.demo.AddsignActivity,android.app.ProgressDialog) -> a
+    android.app.ProgressDialog access$1(koa.android.demo.AddsignActivity) -> a
+    android.widget.AutoCompleteTextView access$2(koa.android.demo.AddsignActivity) -> b
+    android.content.Intent access$3(koa.android.demo.AddsignActivity) -> c
+    android.graphics.drawable.Drawable access$4(koa.android.demo.AddsignActivity) -> d
+    java.lang.String access$5(koa.android.demo.AddsignActivity) -> e
+koa.android.demo.AddsignActivity$1 -> koa.android.demo.a:
+    boolean isnull -> b
+    koa.android.demo.AddsignActivity this$0 -> a
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+koa.android.demo.AddsignActivity$2 -> koa.android.demo.b:
+    koa.android.demo.AddsignActivity this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+koa.android.demo.AddsignActivity$3 -> koa.android.demo.c:
+    koa.android.demo.AddsignActivity this$0 -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+koa.android.demo.AddsignActivity$4 -> koa.android.demo.d:
+    koa.android.demo.AddsignActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.AddsignActivity$SenderBtnListener -> koa.android.demo.e:
+    koa.android.demo.AddsignActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.DownloadHelper -> koa.android.demo.DownloadHelper:
+    koa.android.demo.DownloadHelper instance -> a
+    java.lang.Object lock -> b
+    android.app.ProgressDialog pd -> c
+    java.lang.Long lastDownload -> d
+    java.util.HashMap fileHash -> e
+    android.content.Context curContext -> f
+    koa.android.demo.DownloadHelper getInstance() -> a
+    void createAccessoryTable(java.lang.String,java.lang.String,android.app.DownloadManager,java.lang.String,android.content.Context,android.widget.LinearLayout) -> a
+    void promptDown(java.lang.String,java.lang.String,java.lang.String,android.content.Context,android.app.DownloadManager) -> b
+    void downLoadFile(java.lang.String,java.lang.String,java.lang.String,android.content.Context,android.app.DownloadManager) -> a
+    void startDownload(android.content.Context,java.lang.String,java.lang.String,android.app.DownloadManager) -> a
+    java.io.File getFilePath(java.lang.String) -> a
+    java.lang.String checkFileExists(android.content.Context,java.lang.String) -> a
+    java.lang.String getSDPath() -> b
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void openFile(java.io.File,android.content.Intent) -> a
+    boolean deleteFile(android.content.Context,java.lang.String) -> b
+    void updateApp(android.content.Context,java.lang.String,java.lang.String,android.app.DownloadManager) -> b
+    void access$0(koa.android.demo.DownloadHelper,java.lang.String,java.lang.String,java.lang.String,android.content.Context,android.app.DownloadManager) -> a
+koa.android.demo.DownloadHelper$1 -> koa.android.demo.f:
+    koa.android.demo.DownloadHelper this$0 -> a
+    java.lang.String val$meId -> b
+    java.lang.String val$metaDataMapId -> c
+    android.widget.TextView val$fileNameText -> d
+    android.content.Context val$conn -> e
+    android.app.DownloadManager val$mgr -> f
+    void onClick(android.view.View) -> onClick
+koa.android.demo.DownloadHelper$2 -> koa.android.demo.g:
+    koa.android.demo.DownloadHelper this$0 -> a
+    java.lang.String val$meId -> b
+    java.lang.String val$metaDataMapId -> c
+    java.lang.String val$fileName -> d
+    android.content.Context val$con -> e
+    android.app.DownloadManager val$mgr -> f
+    void onClick(android.content.DialogInterface,int) -> onClick
+koa.android.demo.HistoryListActivity -> koa.android.demo.HistoryListActivity:
+    java.util.List taskList -> b
+    java.util.List taskList_page -> c
+    android.app.ProgressDialog pd -> d
+    android.widget.TextView top_title -> e
+    android.widget.Button title_bt_left -> f
+    android.widget.Button title_bt_right -> g
+    android.widget.ListView listView -> h
+    android.os.Handler handler -> i
+    koa.android.logic.WfCancelAdapter adapter -> j
+    android.widget.LinearLayout list_footer -> k
+    android.widget.TextView foot_msg -> l
+    android.widget.LinearLayout foot_loading -> m
+    java.util.concurrent.ExecutorService executorService -> n
+    java.lang.String todolist_json -> o
+    int PAGE_SIZE -> p
+    int PAGE_NUM -> q
+    int THREADPOOL_SIZE -> r
+    int listStatus -> s
+    android.widget.EditText searchText -> t
+    android.graphics.drawable.Drawable wfSearchClear -> u
+    android.graphics.drawable.Drawable wfSearchGo -> v
+    int searchStatus -> w
+    int cacheInputType -> a
+    java.util.List cacheTaskList -> x
+    int catchPageNum -> y
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void setBackground() -> d
+    void setUpView() -> a
+    void setUpListeners() -> b
+    void clearSearchAndConsumeList() -> e
+    void clearListAndLoadSearch() -> f
+    void refreshSearchResult(int,int) -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onMenuItemSelected(int,android.view.MenuItem) -> onMenuItemSelected
+    void refreshList(int,int) -> b
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> onListItemClick
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    int access$0(koa.android.demo.HistoryListActivity) -> a
+    void access$1(koa.android.demo.HistoryListActivity,int) -> a
+    int access$2() -> c
+    android.os.Handler access$3(koa.android.demo.HistoryListActivity) -> b
+    java.lang.String access$4(koa.android.demo.HistoryListActivity) -> c
+    void access$5(koa.android.demo.HistoryListActivity,java.util.List) -> a
+    java.util.List access$6(koa.android.demo.HistoryListActivity) -> d
+    java.util.List access$7(koa.android.demo.HistoryListActivity) -> e
+    void access$8(koa.android.demo.HistoryListActivity,java.util.List) -> b
+    void access$9(koa.android.demo.HistoryListActivity,koa.android.logic.WfCancelAdapter) -> a
+    koa.android.logic.WfCancelAdapter access$10(koa.android.demo.HistoryListActivity) -> f
+    android.widget.ListView access$11(koa.android.demo.HistoryListActivity) -> g
+    android.widget.LinearLayout access$12(koa.android.demo.HistoryListActivity) -> h
+    android.widget.TextView access$13(koa.android.demo.HistoryListActivity) -> i
+    int access$14(koa.android.demo.HistoryListActivity) -> j
+    java.util.concurrent.ExecutorService access$15(koa.android.demo.HistoryListActivity) -> k
+    android.widget.EditText access$16(koa.android.demo.HistoryListActivity) -> l
+    android.graphics.drawable.Drawable access$17(koa.android.demo.HistoryListActivity) -> m
+    void access$18(koa.android.demo.HistoryListActivity,int) -> b
+    int access$19(koa.android.demo.HistoryListActivity) -> n
+    void access$20(koa.android.demo.HistoryListActivity) -> o
+    android.graphics.drawable.Drawable access$21(koa.android.demo.HistoryListActivity) -> p
+    void access$22(koa.android.demo.HistoryListActivity) -> q
+koa.android.demo.HistoryListActivity$1 -> koa.android.demo.h:
+    koa.android.demo.HistoryListActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.HistoryListActivity$2 -> koa.android.demo.i:
+    koa.android.demo.HistoryListActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.HistoryListActivity$3 -> koa.android.demo.j:
+    koa.android.demo.HistoryListActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.HistoryListActivity$4 -> koa.android.demo.k:
+    boolean isnull -> b
+    koa.android.demo.HistoryListActivity this$0 -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+koa.android.demo.HistoryListActivity$5 -> koa.android.demo.l:
+    koa.android.demo.HistoryListActivity this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+koa.android.demo.HistoryListActivity$GeTodoListAllThread -> koa.android.demo.m:
+    koa.android.demo.HistoryListActivity this$0 -> a
+    void run() -> run
+koa.android.demo.HistoryListActivity$GetSearchResultThread -> koa.android.demo.n:
+    koa.android.demo.HistoryListActivity this$0 -> a
+    void run() -> run
+koa.android.demo.HistoryListActivity$GetTodoListAllHandler -> koa.android.demo.o:
+    koa.android.demo.HistoryListActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+koa.android.demo.KoaActivity -> koa.android.demo.p:
+    void refresh(java.lang.Object[]) -> a
+koa.android.demo.LoginActivity -> koa.android.demo.LoginActivity:
+    android.widget.Button loginbtn -> a
+    android.widget.EditText username -> b
+    android.widget.EditText pwd -> c
+    android.app.ProgressDialog pd -> d
+    android.telephony.TelephonyManager tm -> e
+    boolean rememberPsd -> f
+    int loginNum -> g
+    android.widget.RelativeLayout ui_login -> h
+    android.widget.ImageView ui_login_logo -> i
+    android.widget.Button settingIP -> j
+    java.lang.String sessionId -> k
+    void onCreate(android.os.Bundle) -> onCreate
+    void setUpView() -> c
+    void setUpListener() -> d
+    void setBackground() -> e
+    void onRestart() -> onRestart
+    void onResume() -> onResume
+    void onStop() -> onStop
+    void init() -> a
+    void refresh(java.lang.Object[]) -> a
+    void loginEvent() -> b
+    boolean checkIPLegal(java.lang.String) -> a
+    boolean checkIpFormat(java.lang.String) -> b
+    boolean checkPortFormat(java.lang.String) -> c
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void checkForUpDate() -> f
+    void handleUpDateJson(java.lang.String) -> d
+    void JumpMain() -> g
+    int access$0(koa.android.demo.LoginActivity) -> a
+    void access$1(koa.android.demo.LoginActivity,int) -> a
+    void access$2(koa.android.demo.LoginActivity) -> b
+koa.android.demo.LoginActivity$1 -> koa.android.demo.q:
+    koa.android.demo.LoginActivity this$0 -> a
+    boolean onKey(android.view.View,int,android.view.KeyEvent) -> onKey
+koa.android.demo.LoginActivity$2 -> koa.android.demo.r:
+    koa.android.demo.LoginActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.LoginActivity$3 -> koa.android.demo.s:
+    koa.android.demo.LoginActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.LoginActivity$4 -> koa.android.demo.t:
+    koa.android.demo.LoginActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+koa.android.demo.LoginActivity$5 -> koa.android.demo.u:
+    koa.android.demo.LoginActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+koa.android.demo.LoginActivity$6 -> koa.android.demo.v:
+    koa.android.demo.LoginActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+koa.android.demo.LoginActivity$7 -> koa.android.demo.w:
+    koa.android.demo.LoginActivity this$0 -> a
+    java.lang.String val$upDateURL -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+koa.android.demo.MainActivity -> koa.android.demo.MainActivity:
+    android.widget.GridView gridview -> a
+    android.widget.Button title_bt_left -> b
+    android.widget.TextView top_title -> c
+    android.os.Handler handler -> d
+    java.lang.String count -> e
+    java.lang.String sysmsg_count -> f
+    java.lang.String userName -> g
+    java.lang.String loginInfo -> h
+    java.util.concurrent.ExecutorService executorService -> i
+    int THREADPOOL_SIZE -> j
+    boolean dataReturnFlag -> k
+    android.app.ProgressDialog pd -> l
+    void onCreate(android.os.Bundle) -> onCreate
+    void init() -> d
+    void setBackground() -> e
+    void onRestart() -> onRestart
+    void setUpView() -> a
+    void setUpLisners() -> b
+    void loadGridView(java.lang.String,java.lang.String) -> a
+    void parseJson(java.lang.String) -> a
+    void refreshGridView() -> c
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onMenuItemSelected(int,android.view.MenuItem) -> onMenuItemSelected
+    void access$0(koa.android.demo.MainActivity,boolean) -> a
+    java.lang.String access$1(koa.android.demo.MainActivity) -> a
+    java.lang.String access$2(koa.android.demo.MainActivity) -> b
+    java.lang.String access$3(koa.android.demo.MainActivity) -> c
+    android.widget.TextView access$4(koa.android.demo.MainActivity) -> d
+    java.lang.String access$5(koa.android.demo.MainActivity) -> e
+    android.os.Handler access$6(koa.android.demo.MainActivity) -> f
+    boolean access$7(koa.android.demo.MainActivity) -> g
+koa.android.demo.MainActivity$1 -> koa.android.demo.x:
+    koa.android.demo.MainActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+koa.android.demo.MainActivity$GeMainThread -> koa.android.demo.y:
+    koa.android.demo.MainActivity this$0 -> a
+    void run() -> run
+koa.android.demo.MainActivity$GetMainHandler -> koa.android.demo.z:
+    koa.android.demo.MainActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+koa.android.demo.OpinionHistoryActivity -> koa.android.demo.OpinionHistoryActivity:
+    android.widget.ListView listView -> a
+    android.widget.TextView top_title -> b
+    android.widget.Button title_bt_left -> c
+    android.os.Handler handler -> d
+    android.content.Intent intent -> e
+    koa.android.logic.WfOpinionAdapter adapter -> f
+    java.lang.String opinionListJson -> g
+    java.util.concurrent.ExecutorService executorService -> h
+    int THREADPOOL_SIZE -> i
+    java.lang.Boolean jsonParseFlag -> j
+    java.util.List opinionList_temp -> k
+    java.util.List opinionList -> l
+    android.widget.LinearLayout wf_opinion_process_bar -> m
+    android.view.GestureDetector mGestureDetector -> n
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void setBackground() -> e
+    void setUpListener() -> a
+    void init() -> b
+    void setUpView() -> c
+    void refreshList() -> d
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    boolean onDown(android.view.MotionEvent) -> onDown
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    void onLongPress(android.view.MotionEvent) -> onLongPress
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+    void onShowPress(android.view.MotionEvent) -> onShowPress
+    boolean onSingleTapUp(android.view.MotionEvent) -> onSingleTapUp
+    android.widget.LinearLayout access$0(koa.android.demo.OpinionHistoryActivity) -> a
+    java.lang.String access$1(koa.android.demo.OpinionHistoryActivity) -> b
+    android.widget.ListView access$2(koa.android.demo.OpinionHistoryActivity) -> c
+    void access$3(koa.android.demo.OpinionHistoryActivity,java.util.List) -> a
+    java.lang.Boolean access$4(koa.android.demo.OpinionHistoryActivity) -> d
+    java.util.List access$5(koa.android.demo.OpinionHistoryActivity) -> e
+    java.util.List access$6(koa.android.demo.OpinionHistoryActivity) -> f
+    void access$7(koa.android.demo.OpinionHistoryActivity,java.util.List) -> b
+    void access$8(koa.android.demo.OpinionHistoryActivity,koa.android.logic.WfOpinionAdapter) -> a
+    koa.android.logic.WfOpinionAdapter access$9(koa.android.demo.OpinionHistoryActivity) -> g
+    android.os.Handler access$10(koa.android.demo.OpinionHistoryActivity) -> h
+koa.android.demo.OpinionHistoryActivity$1 -> koa.android.demo.aa:
+    koa.android.demo.OpinionHistoryActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.OpinionHistoryActivity$GetOpinionHistoryHandler -> koa.android.demo.ab:
+    koa.android.demo.OpinionHistoryActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+    koa.android.demo.OpinionHistoryActivity access$0(koa.android.demo.OpinionHistoryActivity$GetOpinionHistoryHandler) -> a
+koa.android.demo.OpinionHistoryActivity$GetOpinionHistoryHandler$1 -> koa.android.demo.ac:
+    koa.android.demo.OpinionHistoryActivity$GetOpinionHistoryHandler this$1 -> a
+    void run() -> run
+koa.android.demo.OpinionHistoryActivity$GetOpinionHistoryHandler$2 -> koa.android.demo.ad:
+    koa.android.demo.OpinionHistoryActivity$GetOpinionHistoryHandler this$1 -> a
+    void run() -> run
+koa.android.demo.OpinionHistoryActivity$GetOpinionHistoryThread -> koa.android.demo.ae:
+    koa.android.demo.OpinionHistoryActivity this$0 -> a
+    void run() -> run
+koa.android.demo.SendNextActivity -> koa.android.demo.SendNextActivity:
+    android.widget.Button title_bt_left -> a
+    android.widget.TextView top_title -> b
+    android.widget.Button transBtn -> c
+    android.content.Intent intent -> d
+    android.widget.TextView tvStepName -> e
+    android.widget.AutoCompleteTextView sender -> f
+    koa.android.demo.model.WFRunModel model -> g
+    android.app.ProgressDialog pd -> h
+    java.lang.String sessionId -> i
+    android.widget.RadioGroup wf_priority_Group -> j
+    android.widget.RadioButton p1 -> k
+    android.widget.RadioButton p2 -> l
+    android.widget.RadioButton p3 -> m
+    android.widget.RadioButton p4 -> n
+    android.widget.TextView wf_priority_text1 -> o
+    android.widget.TextView wf_priority_text2 -> p
+    android.widget.TextView wf_priority_text3 -> q
+    android.widget.TextView wf_priority_text4 -> r
+    int PRIORITY_NONE -> s
+    int PRIORITY_LOW -> t
+    int PRIORITY_MEDIUM -> u
+    int PRIORITY_HEIGH -> v
+    java.lang.String priority -> w
+    int SENDER_SHOWTYPE_1 -> x
+    int SENDER_SHOWTYPE_2 -> y
+    int SENDER_SHOWTYPE_3 -> z
+    int SENDER_SHOWTYPE_4 -> A
+    android.widget.LinearLayout wf_sender_area -> B
+    int TotalCheckedNum -> C
+    java.util.Map senderMap -> D
+    android.graphics.drawable.Drawable wfSenderClear -> E
+    android.view.GestureDetector mGestureDetector -> F
+    android.widget.LinearLayout sendnext_layout -> G
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void setBackground() -> d
+    void setUpView() -> a
+    void setUpListener() -> b
+    void init() -> c
+    void createMulti(java.lang.String[],int,boolean) -> a
+    void refresh(java.lang.Object[]) -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    boolean onDown(android.view.MotionEvent) -> onDown
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    void onLongPress(android.view.MotionEvent) -> onLongPress
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+    void onShowPress(android.view.MotionEvent) -> onShowPress
+    boolean onSingleTapUp(android.view.MotionEvent) -> onSingleTapUp
+    koa.android.demo.model.WFRunModel access$0(koa.android.demo.SendNextActivity) -> a
+    int access$1(koa.android.demo.SendNextActivity) -> b
+    android.widget.AutoCompleteTextView access$2(koa.android.demo.SendNextActivity) -> c
+    int access$3(koa.android.demo.SendNextActivity) -> d
+    java.util.Map access$4(koa.android.demo.SendNextActivity) -> e
+    int access$5(koa.android.demo.SendNextActivity) -> f
+    int access$6(koa.android.demo.SendNextActivity) -> g
+    android.widget.Button access$7(koa.android.demo.SendNextActivity) -> h
+    void access$8(koa.android.demo.SendNextActivity,android.app.ProgressDialog) -> a
+    android.app.ProgressDialog access$9(koa.android.demo.SendNextActivity) -> i
+    android.content.Intent access$10(koa.android.demo.SendNextActivity) -> j
+    java.lang.String access$11(koa.android.demo.SendNextActivity) -> k
+    android.widget.RadioButton access$12(koa.android.demo.SendNextActivity) -> l
+    android.widget.RadioButton access$13(koa.android.demo.SendNextActivity) -> m
+    android.widget.RadioButton access$14(koa.android.demo.SendNextActivity) -> n
+    android.widget.RadioButton access$15(koa.android.demo.SendNextActivity) -> o
+    void access$16(koa.android.demo.SendNextActivity,java.lang.String) -> a
+    android.graphics.drawable.Drawable access$17(koa.android.demo.SendNextActivity) -> p
+    java.lang.String access$18(koa.android.demo.SendNextActivity) -> q
+    int access$19(koa.android.demo.SendNextActivity) -> r
+    void access$20(koa.android.demo.SendNextActivity,int) -> a
+koa.android.demo.SendNextActivity$1 -> koa.android.demo.af:
+    koa.android.demo.SendNextActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.SendNextActivity$10 -> koa.android.demo.ag:
+    koa.android.demo.SendNextActivity this$0 -> a
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+koa.android.demo.SendNextActivity$11 -> koa.android.demo.ah:
+    koa.android.demo.SendNextActivity this$0 -> a
+    int val$num -> b
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+koa.android.demo.SendNextActivity$2 -> koa.android.demo.ai:
+    koa.android.demo.SendNextActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.SendNextActivity$3 -> koa.android.demo.aj:
+    koa.android.demo.SendNextActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.SendNextActivity$4 -> koa.android.demo.ak:
+    koa.android.demo.SendNextActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.SendNextActivity$5 -> koa.android.demo.al:
+    koa.android.demo.SendNextActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.SendNextActivity$6 -> koa.android.demo.am:
+    koa.android.demo.SendNextActivity this$0 -> a
+    void onCheckedChanged(android.widget.RadioGroup,int) -> onCheckedChanged
+koa.android.demo.SendNextActivity$7 -> koa.android.demo.an:
+    boolean isnull -> b
+    koa.android.demo.SendNextActivity this$0 -> a
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+koa.android.demo.SendNextActivity$8 -> koa.android.demo.ao:
+    koa.android.demo.SendNextActivity this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+koa.android.demo.SendNextActivity$9 -> koa.android.demo.ap:
+    koa.android.demo.SendNextActivity this$0 -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+koa.android.demo.SendNextActivity$SenderBtnListener -> koa.android.demo.aq:
+    koa.android.demo.SendNextActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.SettingServiceIPActivity -> koa.android.demo.SettingServiceIPActivity:
+    android.widget.Button title_bt_left -> a
+    android.widget.Button title_bt_right -> b
+    android.widget.TextView top_title -> c
+    android.widget.EditText Service_ip_edit -> d
+    android.widget.RelativeLayout service_ip_log_area -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void init() -> a
+    void onRestart() -> onRestart
+    void setBackground() -> b
+    void setUpView() -> c
+    void setUpListeners() -> d
+    void createIpLog_area(java.util.List) -> a
+    android.widget.EditText access$0(koa.android.demo.SettingServiceIPActivity) -> a
+koa.android.demo.SettingServiceIPActivity$1 -> koa.android.demo.ar:
+    koa.android.demo.SettingServiceIPActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.SettingServiceIPActivity$2 -> koa.android.demo.as:
+    koa.android.demo.SettingServiceIPActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.SettingServiceIPActivity$3 -> koa.android.demo.at:
+    koa.android.demo.SettingServiceIPActivity this$0 -> a
+    android.widget.RadioButton val$radio -> b
+    void onClick(android.view.View) -> onClick
+koa.android.demo.SettingServiceIPActivity$4 -> koa.android.demo.au:
+    koa.android.demo.SettingServiceIPActivity this$0 -> a
+    void onCheckedChanged(android.widget.RadioGroup,int) -> onCheckedChanged
+koa.android.demo.TodoListActivity -> koa.android.demo.TodoListActivity:
+    java.util.List taskList -> b
+    java.util.List taskList_page -> c
+    android.app.ProgressDialog pd -> d
+    android.widget.TextView top_title -> e
+    android.widget.Button title_bt_left -> f
+    android.widget.Button title_bt_right -> g
+    android.widget.ListView listView -> h
+    android.os.Handler handler -> i
+    koa.android.logic.WfOtherAdapter adapter -> j
+    android.widget.LinearLayout list_footer -> k
+    android.widget.TextView foot_msg -> l
+    android.widget.LinearLayout foot_loading -> m
+    java.util.concurrent.ExecutorService executorService -> n
+    java.lang.String todolist_json -> o
+    int PAGE_SIZE -> p
+    int PAGE_NUM -> q
+    int THREADPOOL_SIZE -> r
+    int listStatus -> s
+    android.widget.EditText searchText -> t
+    android.graphics.drawable.Drawable wfSearchClear -> u
+    android.graphics.drawable.Drawable wfSearchGo -> v
+    int searchStatus -> w
+    int cacheInputType -> a
+    java.util.List cacheTaskList -> x
+    int catchPageNum -> y
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void setBackground() -> d
+    void setUpView() -> a
+    void setUpListeners() -> b
+    void clearSearchAndConsumeList() -> e
+    void clearListAndLoadSearch() -> f
+    void refreshSearchResult(int,int) -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onMenuItemSelected(int,android.view.MenuItem) -> onMenuItemSelected
+    void refreshList(int,int) -> b
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> onListItemClick
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    int access$0(koa.android.demo.TodoListActivity) -> a
+    void access$1(koa.android.demo.TodoListActivity,int) -> a
+    int access$2() -> c
+    android.os.Handler access$3(koa.android.demo.TodoListActivity) -> b
+    java.lang.String access$4(koa.android.demo.TodoListActivity) -> c
+    void access$5(koa.android.demo.TodoListActivity,java.util.List) -> a
+    java.util.List access$6(koa.android.demo.TodoListActivity) -> d
+    java.util.List access$7(koa.android.demo.TodoListActivity) -> e
+    void access$8(koa.android.demo.TodoListActivity,java.util.List) -> b
+    void access$9(koa.android.demo.TodoListActivity,koa.android.logic.WfOtherAdapter) -> a
+    koa.android.logic.WfOtherAdapter access$10(koa.android.demo.TodoListActivity) -> f
+    android.widget.ListView access$11(koa.android.demo.TodoListActivity) -> g
+    android.widget.LinearLayout access$12(koa.android.demo.TodoListActivity) -> h
+    android.widget.TextView access$13(koa.android.demo.TodoListActivity) -> i
+    int access$14(koa.android.demo.TodoListActivity) -> j
+    java.util.concurrent.ExecutorService access$15(koa.android.demo.TodoListActivity) -> k
+    android.widget.EditText access$16(koa.android.demo.TodoListActivity) -> l
+    android.graphics.drawable.Drawable access$17(koa.android.demo.TodoListActivity) -> m
+    void access$18(koa.android.demo.TodoListActivity,int) -> b
+    int access$19(koa.android.demo.TodoListActivity) -> n
+    void access$20(koa.android.demo.TodoListActivity) -> o
+    android.graphics.drawable.Drawable access$21(koa.android.demo.TodoListActivity) -> p
+    void access$22(koa.android.demo.TodoListActivity) -> q
+koa.android.demo.TodoListActivity$1 -> koa.android.demo.av:
+    koa.android.demo.TodoListActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.TodoListActivity$2 -> koa.android.demo.aw:
+    koa.android.demo.TodoListActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.TodoListActivity$3 -> koa.android.demo.ax:
+    koa.android.demo.TodoListActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.TodoListActivity$4 -> koa.android.demo.ay:
+    koa.android.demo.TodoListActivity this$0 -> a
+    boolean onKey(android.view.View,int,android.view.KeyEvent) -> onKey
+koa.android.demo.TodoListActivity$5 -> koa.android.demo.az:
+    boolean isnull -> b
+    koa.android.demo.TodoListActivity this$0 -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+koa.android.demo.TodoListActivity$6 -> koa.android.demo.ba:
+    koa.android.demo.TodoListActivity this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+koa.android.demo.TodoListActivity$GeTodoListAllThread -> koa.android.demo.bb:
+    koa.android.demo.TodoListActivity this$0 -> a
+    void run() -> run
+koa.android.demo.TodoListActivity$GetSearchResultThread -> koa.android.demo.bc:
+    koa.android.demo.TodoListActivity this$0 -> a
+    void run() -> run
+koa.android.demo.TodoListActivity$GetTodoListHandler -> koa.android.demo.bd:
+    koa.android.demo.TodoListActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+koa.android.demo.TodoListAllActivity -> koa.android.demo.TodoListAllActivity:
+    java.util.List taskList -> a
+    java.util.List taskList_temp -> b
+    android.app.ProgressDialog pd -> c
+    android.widget.TextView top_title -> d
+    android.widget.Button title_bt_left -> e
+    android.widget.Button title_bt_right -> f
+    koa.android.logic.PullToRefreshListView listView -> g
+    android.os.Handler handler -> h
+    koa.android.logic.WfAdapter adapter -> i
+    java.util.concurrent.ExecutorService executorService -> j
+    java.lang.String todolist_json -> k
+    int THREADPOOL_SIZE -> l
+    android.app.NotificationManager KoaNotiManager -> m
+    boolean isListViewFresh -> n
+    int cacheListViewPosition -> o
+    android.widget.LinearLayout wf_list_search_area -> p
+    android.widget.LinearLayout todolistall_main_linearLayout -> q
+    void onCreate(android.os.Bundle) -> onCreate
+    void setUpView() -> a
+    void setBackground() -> c
+    void onRestart() -> onRestart
+    void setUpListeners() -> b
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onMenuItemSelected(int,android.view.MenuItem) -> onMenuItemSelected
+    void refreshList(int,int) -> a
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    java.lang.String access$0(koa.android.demo.TodoListAllActivity) -> a
+    void access$1(koa.android.demo.TodoListAllActivity,java.util.List) -> a
+    java.util.List access$2(koa.android.demo.TodoListAllActivity) -> b
+    java.util.List access$3(koa.android.demo.TodoListAllActivity) -> c
+    void access$4(koa.android.demo.TodoListAllActivity,java.util.List) -> b
+    void access$5(koa.android.demo.TodoListAllActivity,koa.android.logic.WfAdapter) -> a
+    koa.android.logic.WfAdapter access$6(koa.android.demo.TodoListAllActivity) -> d
+    koa.android.logic.PullToRefreshListView access$7(koa.android.demo.TodoListAllActivity) -> e
+    android.widget.LinearLayout access$8(koa.android.demo.TodoListAllActivity) -> f
+    android.app.NotificationManager access$9(koa.android.demo.TodoListAllActivity) -> g
+    boolean access$10(koa.android.demo.TodoListAllActivity) -> h
+    int access$11(koa.android.demo.TodoListAllActivity) -> i
+    android.os.Handler access$12(koa.android.demo.TodoListAllActivity) -> j
+    void access$13(koa.android.demo.TodoListAllActivity,int) -> a
+    java.util.concurrent.ExecutorService access$14(koa.android.demo.TodoListAllActivity) -> k
+    void access$15(koa.android.demo.TodoListAllActivity,boolean) -> a
+koa.android.demo.TodoListAllActivity$1 -> koa.android.demo.be:
+    koa.android.demo.TodoListAllActivity this$0 -> a
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+koa.android.demo.TodoListAllActivity$2 -> koa.android.demo.bf:
+    koa.android.demo.TodoListAllActivity this$0 -> a
+    void onRefresh() -> a
+koa.android.demo.TodoListAllActivity$3 -> koa.android.demo.bg:
+    koa.android.demo.TodoListAllActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+koa.android.demo.TodoListAllActivity$4 -> koa.android.demo.bh:
+    koa.android.demo.TodoListAllActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.TodoListAllActivity$5 -> koa.android.demo.bi:
+    koa.android.demo.TodoListAllActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.TodoListAllActivity$GeTodoListAllThread -> koa.android.demo.bj:
+    koa.android.demo.TodoListAllActivity this$0 -> a
+    void run() -> run
+koa.android.demo.TodoListAllActivity$GetTodoListAllHandler -> koa.android.demo.bk:
+    koa.android.demo.TodoListAllActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+koa.android.demo.UISettingActivity -> koa.android.demo.UISettingActivity:
+    java.lang.String SELECT_MAIN_BG_DEFAULT -> a
+    android.preference.CheckBoxPreference pushMsg -> b
+    android.preference.Preference settings_select_main_bg -> c
+    android.preference.Preference settings_select_theme -> d
+    android.preference.Preference settings_check_for_new_version -> e
+    java.util.concurrent.ExecutorService executorService -> f
+    koa.android.demo.UISettingActivity$UpdateHandler updateHandler -> g
+    int THREADPOOL_SIZE -> h
+    java.lang.String upDateJson -> i
+    void onCreate(android.os.Bundle) -> onCreate
+    void setUpView() -> a
+    void setUpListener() -> b
+    void onFrameActivityResult(int,int,android.content.Intent) -> a
+    void setTheme(android.content.Context,java.lang.String) -> a
+    java.lang.String getTheme(android.content.Context) -> a
+    void setMainBG_URI(android.content.Context,java.lang.String) -> b
+    android.net.Uri getMainBG_URI(android.content.Context) -> b
+    boolean getIsMsgPush(android.content.Context) -> c
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void checkForUpDate() -> c
+    void access$0(koa.android.demo.UISettingActivity,java.lang.String) -> a
+    koa.android.demo.UISettingActivity$UpdateHandler access$1(koa.android.demo.UISettingActivity) -> a
+    java.lang.String access$2(koa.android.demo.UISettingActivity) -> b
+    void access$3(koa.android.demo.UISettingActivity) -> c
+koa.android.demo.UISettingActivity$1 -> koa.android.demo.bl:
+    koa.android.demo.UISettingActivity this$0 -> a
+    boolean onPreferenceChange(android.preference.Preference,java.lang.Object) -> onPreferenceChange
+koa.android.demo.UISettingActivity$2 -> koa.android.demo.bm:
+    koa.android.demo.UISettingActivity this$0 -> a
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+koa.android.demo.UISettingActivity$3 -> koa.android.demo.bn:
+    koa.android.demo.UISettingActivity this$0 -> a
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+koa.android.demo.UISettingActivity$4 -> koa.android.demo.bo:
+    koa.android.demo.UISettingActivity this$0 -> a
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+koa.android.demo.UISettingActivity$UpdateHandler -> koa.android.demo.bp:
+    java.lang.String updateType -> b
+    double serverVersion -> c
+    java.lang.String upDateURL -> d
+    koa.android.demo.UISettingActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+    java.lang.String access$0(koa.android.demo.UISettingActivity$UpdateHandler) -> a
+    koa.android.demo.UISettingActivity access$1(koa.android.demo.UISettingActivity$UpdateHandler) -> b
+koa.android.demo.UISettingActivity$UpdateHandler$1 -> koa.android.demo.bq:
+    koa.android.demo.UISettingActivity$UpdateHandler this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+koa.android.demo.UISettingActivity$UpdateHandler$2 -> koa.android.demo.br:
+    koa.android.demo.UISettingActivity$UpdateHandler this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+koa.android.demo.UISettingActivity$UpdateThread -> koa.android.demo.bs:
+    koa.android.demo.UISettingActivity this$0 -> a
+    void run() -> run
+koa.android.demo.UISettingFrameActivity -> koa.android.demo.UISettingFrameActivity:
+    android.app.LocalActivityManager mLocalActivityManager -> a
+    android.widget.FrameLayout mBoday -> b
+    android.widget.Button title_bt_left -> c
+    android.widget.TextView top_title -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void setBackground() -> a
+    void setUpView() -> b
+    void setUpLisners() -> c
+    void init() -> d
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+koa.android.demo.UISettingFrameActivity$1 -> koa.android.demo.bt:
+    koa.android.demo.UISettingFrameActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.UISettingFrameActivity$OnFrameActivityResultListener -> koa.android.demo.bu:
+    void onFrameActivityResult(int,int,android.content.Intent) -> a
+koa.android.demo.UISettingSelectTheme -> koa.android.demo.UISettingSelectTheme:
+    android.widget.Button title_bt_left -> a
+    android.widget.TextView top_title -> b
+    android.widget.ImageView ui_setting_select_theme_thumbnail_blue -> c
+    android.widget.ImageView ui_setting_select_theme_thumbnail_orange -> d
+    android.widget.ImageView ui_setting_select_theme_thumbnail_black -> e
+    android.view.GestureDetector mGestureDetector -> f
+    android.widget.LinearLayout ui_setting_theme_layout -> g
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void setBackground() -> a
+    void setUpView() -> b
+    void setUpLisners() -> c
+    void init() -> d
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    boolean onDown(android.view.MotionEvent) -> onDown
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    void onLongPress(android.view.MotionEvent) -> onLongPress
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+    void onShowPress(android.view.MotionEvent) -> onShowPress
+    boolean onSingleTapUp(android.view.MotionEvent) -> onSingleTapUp
+koa.android.demo.UISettingSelectTheme$1 -> koa.android.demo.bv:
+    koa.android.demo.UISettingSelectTheme this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.UISettingSelectTheme$2 -> koa.android.demo.bw:
+    koa.android.demo.UISettingSelectTheme this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.UISettingSelectTheme$3 -> koa.android.demo.bx:
+    koa.android.demo.UISettingSelectTheme this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.UISettingSelectTheme$4 -> koa.android.demo.by:
+    koa.android.demo.UISettingSelectTheme this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WFSubListActivity -> koa.android.demo.WFSubListActivity:
+    android.widget.ListView listView -> a
+    android.widget.TextView top_title -> b
+    android.widget.Button title_bt_left -> c
+    android.widget.LinearLayout wf_opinion_process_bar -> d
+    android.os.Handler handler -> e
+    koa.android.logic.WfSubListAdapter adapter -> f
+    java.lang.String opinionListJson -> g
+    java.util.concurrent.ExecutorService executorService -> h
+    int THREADPOOL_SIZE -> i
+    android.content.Intent intent -> j
+    android.view.GestureDetector mGestureDetector -> k
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void setBackground() -> e
+    void setUpListener() -> a
+    void init() -> b
+    void setUpView() -> c
+    void refreshList() -> d
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    boolean onDown(android.view.MotionEvent) -> onDown
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    void onLongPress(android.view.MotionEvent) -> onLongPress
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+    void onShowPress(android.view.MotionEvent) -> onShowPress
+    boolean onSingleTapUp(android.view.MotionEvent) -> onSingleTapUp
+    android.widget.LinearLayout access$0(koa.android.demo.WFSubListActivity) -> a
+    java.lang.String access$1(koa.android.demo.WFSubListActivity) -> b
+    android.widget.ListView access$2(koa.android.demo.WFSubListActivity) -> c
+    void access$3(koa.android.demo.WFSubListActivity,koa.android.logic.WfSubListAdapter) -> a
+    koa.android.logic.WfSubListAdapter access$4(koa.android.demo.WFSubListActivity) -> d
+    android.os.Handler access$5(koa.android.demo.WFSubListActivity) -> e
+koa.android.demo.WFSubListActivity$1 -> koa.android.demo.bz:
+    koa.android.demo.WFSubListActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WFSubListActivity$GetSubTableHandler -> koa.android.demo.ca:
+    koa.android.demo.WFSubListActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+    koa.android.demo.WFSubListActivity access$0(koa.android.demo.WFSubListActivity$GetSubTableHandler) -> a
+koa.android.demo.WFSubListActivity$GetSubTableHandler$1 -> koa.android.demo.cb:
+    koa.android.demo.WFSubListActivity$GetSubTableHandler this$1 -> a
+    void run() -> run
+koa.android.demo.WFSubListActivity$GetSubTableHandler$2 -> koa.android.demo.cc:
+    koa.android.demo.WFSubListActivity$GetSubTableHandler this$1 -> a
+    void run() -> run
+koa.android.demo.WFSubListActivity$GetSubTableThread -> koa.android.demo.cd:
+    koa.android.demo.WFSubListActivity this$0 -> a
+    void run() -> run
+koa.android.demo.WfAddNoticeActivity -> koa.android.demo.WfAddNoticeActivity:
+    android.widget.Button title_bt_left -> a
+    android.widget.TextView top_title -> b
+    android.widget.Button transBtn -> c
+    android.content.Intent intent -> d
+    android.widget.TextView tvStepName -> e
+    android.widget.AutoCompleteTextView sender -> f
+    android.app.ProgressDialog pd -> g
+    java.lang.String sessionId -> h
+    android.widget.RelativeLayout wf_priority_area -> i
+    android.graphics.drawable.Drawable wfSenderClear -> j
+    android.view.GestureDetector mGestureDetector -> k
+    android.widget.LinearLayout sendnext_layout -> l
+    android.widget.TextView wf_sendnext_title_text -> m
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void setBackground() -> d
+    void setUpView() -> a
+    void setUpViewListener() -> b
+    void init() -> c
+    void refresh(java.lang.Object[]) -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    boolean onDown(android.view.MotionEvent) -> onDown
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    void onLongPress(android.view.MotionEvent) -> onLongPress
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+    void onShowPress(android.view.MotionEvent) -> onShowPress
+    boolean onSingleTapUp(android.view.MotionEvent) -> onSingleTapUp
+    void access$0(koa.android.demo.WfAddNoticeActivity,android.app.ProgressDialog) -> a
+    android.app.ProgressDialog access$1(koa.android.demo.WfAddNoticeActivity) -> a
+    android.widget.AutoCompleteTextView access$2(koa.android.demo.WfAddNoticeActivity) -> b
+    android.content.Intent access$3(koa.android.demo.WfAddNoticeActivity) -> c
+    android.graphics.drawable.Drawable access$4(koa.android.demo.WfAddNoticeActivity) -> d
+    java.lang.String access$5(koa.android.demo.WfAddNoticeActivity) -> e
+koa.android.demo.WfAddNoticeActivity$1 -> koa.android.demo.ce:
+    boolean isnull -> b
+    koa.android.demo.WfAddNoticeActivity this$0 -> a
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+koa.android.demo.WfAddNoticeActivity$2 -> koa.android.demo.cf:
+    koa.android.demo.WfAddNoticeActivity this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+koa.android.demo.WfAddNoticeActivity$3 -> koa.android.demo.cg:
+    koa.android.demo.WfAddNoticeActivity this$0 -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+koa.android.demo.WfAddNoticeActivity$4 -> koa.android.demo.ch:
+    koa.android.demo.WfAddNoticeActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfAddNoticeActivity$SenderBtnListener -> koa.android.demo.ci:
+    koa.android.demo.WfAddNoticeActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfAddsignActivity -> koa.android.demo.WfAddsignActivity:
+    android.widget.Button title_bt_left -> a
+    android.widget.TextView top_title -> b
+    android.widget.Button transBtn -> c
+    android.widget.Button examBtn -> d
+    android.widget.Button optionBtn -> e
+    android.widget.Button formviewBtn -> f
+    android.widget.TextView tvWfTitle -> g
+    android.widget.TextView tvWfCreateuser -> h
+    android.widget.TextView tvWfCreatedate -> i
+    android.widget.TextView tvWfMemo -> j
+    java.lang.String baseUrl -> k
+    android.os.Handler handler -> l
+    java.util.concurrent.ExecutorService executorService -> m
+    int THREADPOOL_SIZE -> n
+    android.content.Intent intent -> o
+    java.lang.String formjson -> p
+    boolean dataReturnFlag -> q
+    android.widget.LinearLayout wf_detail_operate_bar -> r
+    android.widget.RelativeLayout wf_read_process_bar -> s
+    android.app.DownloadManager mgr -> t
+    android.widget.LinearLayout wf_accessory_table -> u
+    android.widget.LinearLayout wf_acessory_area -> v
+    android.widget.LinearLayout wf_detail_sublist_content -> w
+    android.widget.LinearLayout wfdetail_area -> x
+    android.widget.LinearLayout wf_detail_fields -> y
+    android.view.GestureDetector mGestureDetector -> z
+    android.widget.ScrollView wf_all_ScrollView -> A
+    android.widget.FrameLayout wf_main_FrameLayout -> B
+    void onCreate(android.os.Bundle) -> onCreate
+    void setUpView() -> a
+    void onRestart() -> onRestart
+    void setBackground() -> e
+    void init() -> b
+    void setUpListeners() -> c
+    void refreshDetail() -> d
+    void refresh(java.lang.Object[]) -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    boolean onDown(android.view.MotionEvent) -> onDown
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    void onLongPress(android.view.MotionEvent) -> onLongPress
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+    void onShowPress(android.view.MotionEvent) -> onShowPress
+    boolean onSingleTapUp(android.view.MotionEvent) -> onSingleTapUp
+    android.widget.RelativeLayout access$0(koa.android.demo.WfAddsignActivity) -> a
+    android.os.Handler access$1(koa.android.demo.WfAddsignActivity) -> b
+    void access$2(koa.android.demo.WfAddsignActivity,boolean) -> a
+    java.lang.String access$3(koa.android.demo.WfAddsignActivity) -> c
+    android.content.Intent access$4(koa.android.demo.WfAddsignActivity) -> d
+    android.app.DownloadManager access$5(koa.android.demo.WfAddsignActivity) -> e
+    android.widget.LinearLayout access$6(koa.android.demo.WfAddsignActivity) -> f
+    android.widget.LinearLayout access$7(koa.android.demo.WfAddsignActivity) -> g
+    android.widget.LinearLayout access$8(koa.android.demo.WfAddsignActivity) -> h
+    android.widget.TextView access$9(koa.android.demo.WfAddsignActivity) -> i
+    android.widget.LinearLayout access$10(koa.android.demo.WfAddsignActivity) -> j
+    android.widget.LinearLayout access$11(koa.android.demo.WfAddsignActivity) -> k
+    boolean access$12(koa.android.demo.WfAddsignActivity) -> l
+    java.lang.String access$13(koa.android.demo.WfAddsignActivity) -> m
+koa.android.demo.WfAddsignActivity$1 -> koa.android.demo.cj:
+    koa.android.demo.WfAddsignActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfAddsignActivity$2 -> koa.android.demo.ck:
+    koa.android.demo.WfAddsignActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfAddsignActivity$3 -> koa.android.demo.cl:
+    koa.android.demo.WfAddsignActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfAddsignActivity$4 -> koa.android.demo.cm:
+    koa.android.demo.WfAddsignActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfAddsignActivity$GetWFAddsignHandler -> koa.android.demo.cn:
+    koa.android.demo.WfAddsignActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+koa.android.demo.WfAddsignActivity$GetWfPageThread -> koa.android.demo.co:
+    koa.android.demo.WfAddsignActivity this$0 -> a
+    void run() -> run
+koa.android.demo.WfAddsignOpinionActivity -> koa.android.demo.WfAddsignOpinionActivity:
+    android.content.Intent intent -> a
+    android.widget.TextView top_title -> b
+    android.widget.Button title_bt_left -> c
+    android.widget.Button addSignBtn -> d
+    android.app.ProgressDialog pd -> e
+    android.widget.EditText opinion_text -> f
+    int jsonStatus -> g
+    android.view.GestureDetector mGestureDetector -> h
+    android.widget.RelativeLayout wf_cancel_layout -> i
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void setBackground() -> f
+    void setUpView() -> a
+    void init() -> b
+    void setUpListeners() -> c
+    void promptAddSign(android.content.Context) -> a
+    void opinion_Audit_Save() -> d
+    void refresh(java.lang.Object[]) -> a
+    void signOK() -> e
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    boolean onDown(android.view.MotionEvent) -> onDown
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    void onLongPress(android.view.MotionEvent) -> onLongPress
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+    void onShowPress(android.view.MotionEvent) -> onShowPress
+    boolean onSingleTapUp(android.view.MotionEvent) -> onSingleTapUp
+    void access$0(koa.android.demo.WfAddsignOpinionActivity,android.content.Context) -> a
+koa.android.demo.WfAddsignOpinionActivity$1 -> koa.android.demo.cp:
+    koa.android.demo.WfAddsignOpinionActivity this$0 -> a
+    void run() -> run
+koa.android.demo.WfAddsignOpinionActivity$2 -> koa.android.demo.cq:
+    koa.android.demo.WfAddsignOpinionActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfAddsignOpinionActivity$3 -> koa.android.demo.cr:
+    koa.android.demo.WfAddsignOpinionActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfAddsignOpinionActivity$4 -> koa.android.demo.cs:
+    koa.android.demo.WfAddsignOpinionActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+koa.android.demo.WfCancelActivity -> koa.android.demo.WfCancelActivity:
+    android.content.Intent intent -> a
+    android.widget.TextView top_title -> b
+    android.widget.Button title_bt_left -> c
+    android.widget.Button cancelBtn -> d
+    java.lang.String fromActivity -> e
+    android.app.ProgressDialog pd -> f
+    android.widget.EditText opinion_text -> g
+    android.view.GestureDetector mGestureDetector -> h
+    android.widget.RelativeLayout wf_cancel_layout -> i
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void setBackground() -> d
+    void setUpView() -> a
+    void init() -> b
+    void setUpListeners() -> c
+    void promptCancel(android.content.Context) -> a
+    void cancelWf() -> e
+    void refresh(java.lang.Object[]) -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    boolean onDown(android.view.MotionEvent) -> onDown
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    void onLongPress(android.view.MotionEvent) -> onLongPress
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+    void onShowPress(android.view.MotionEvent) -> onShowPress
+    boolean onSingleTapUp(android.view.MotionEvent) -> onSingleTapUp
+    void access$0(koa.android.demo.WfCancelActivity) -> a
+koa.android.demo.WfCancelActivity$1 -> koa.android.demo.ct:
+    koa.android.demo.WfCancelActivity this$0 -> a
+    void run() -> run
+koa.android.demo.WfCancelActivity$2 -> koa.android.demo.cu:
+    koa.android.demo.WfCancelActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfCancelActivity$3 -> koa.android.demo.cv:
+    koa.android.demo.WfCancelActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfCancelActivity$4 -> koa.android.demo.cw:
+    koa.android.demo.WfCancelActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+koa.android.demo.WfExamActivity -> koa.android.demo.WfExamActivity:
+    android.widget.Button title_bt_left -> a
+    android.widget.TextView top_title -> b
+    android.app.ProgressDialog pd -> c
+    android.content.Intent intent -> d
+    java.lang.String opinionButtonJson -> e
+    java.lang.String auditId -> f
+    android.widget.RelativeLayout opinion_area -> g
+    android.widget.Button transBtn -> h
+    android.widget.Button addsignBtn -> i
+    android.widget.Button notivrBtn -> j
+    android.widget.EditText opinion_editText -> k
+    int jsonStatus -> l
+    android.view.GestureDetector mGestureDetector -> m
+    android.widget.RelativeLayout wf_exam_layout -> n
+    void onCreate(android.os.Bundle) -> onCreate
+    void setUpView() -> d
+    void setUpListeners() -> e
+    void onRestart() -> onRestart
+    void setBackground() -> f
+    void init() -> a
+    void createOpinion_area(java.lang.String) -> a
+    void transaction() -> b
+    void opinion_Audit_Save() -> c
+    void refresh(java.lang.Object[]) -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    boolean onDown(android.view.MotionEvent) -> onDown
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    void onLongPress(android.view.MotionEvent) -> onLongPress
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+    void onShowPress(android.view.MotionEvent) -> onShowPress
+    boolean onSingleTapUp(android.view.MotionEvent) -> onSingleTapUp
+    java.lang.String access$0(koa.android.demo.WfExamActivity) -> a
+    java.lang.String access$1(koa.android.demo.WfExamActivity) -> b
+    void access$2(koa.android.demo.WfExamActivity,android.app.ProgressDialog) -> a
+    android.app.ProgressDialog access$3(koa.android.demo.WfExamActivity) -> c
+    void access$4(koa.android.demo.WfExamActivity,int) -> a
+    android.content.Intent access$5(koa.android.demo.WfExamActivity) -> d
+    void access$6(koa.android.demo.WfExamActivity,java.lang.String) -> a
+koa.android.demo.WfExamActivity$1 -> koa.android.demo.cx:
+    koa.android.demo.WfExamActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfExamActivity$2 -> koa.android.demo.cy:
+    koa.android.demo.WfExamActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfExamActivity$3 -> koa.android.demo.cz:
+    koa.android.demo.WfExamActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfExamActivity$4 -> koa.android.demo.da:
+    koa.android.demo.WfExamActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfExamActivity$5 -> koa.android.demo.db:
+    koa.android.demo.WfExamActivity this$0 -> a
+    void onCheckedChanged(android.widget.RadioGroup,int) -> onCheckedChanged
+koa.android.demo.WfFormViewActivity -> koa.android.demo.WfFormViewActivity:
+    android.widget.Button title_bt_left -> a
+    android.widget.TextView top_title -> b
+    android.content.Intent intent -> c
+    java.lang.String formURL -> d
+    android.webkit.WebView formWebView -> e
+    android.app.ProgressDialog pd -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void setBackground() -> a
+    void init() -> b
+    void setUpView() -> c
+    void setUpListeners() -> d
+    void linkPage(java.lang.String) -> a
+    void access$0(koa.android.demo.WfFormViewActivity,android.app.ProgressDialog) -> a
+    android.app.ProgressDialog access$1(koa.android.demo.WfFormViewActivity) -> a
+koa.android.demo.WfFormViewActivity$1 -> koa.android.demo.dc:
+    koa.android.demo.WfFormViewActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfFormViewActivity$2 -> koa.android.demo.dd:
+    koa.android.demo.WfFormViewActivity this$0 -> a
+    void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+koa.android.demo.WfNoticeActivity -> koa.android.demo.WfNoticeActivity:
+    android.widget.Button title_bt_left -> a
+    android.widget.Button formviewBtn -> b
+    android.widget.TextView tvWfTitle -> c
+    android.widget.TextView tvWfCreateuser -> d
+    android.widget.TextView tvWfCreatedate -> e
+    android.widget.TextView tvWfMemo -> f
+    android.widget.TextView top_title -> g
+    java.lang.String baseUrl -> h
+    android.os.Handler handler -> i
+    java.util.concurrent.ExecutorService executorService -> j
+    int THREADPOOL_SIZE -> k
+    android.content.Intent intent -> l
+    java.lang.String formjson -> m
+    java.util.List opinionList_temp -> n
+    java.util.List opinionList -> o
+    android.widget.ListView listView -> p
+    koa.android.logic.WfOpinionAdapter adapter -> q
+    android.widget.LinearLayout list_Header -> r
+    android.widget.LinearLayout wf_read_process_bar -> s
+    android.app.DownloadManager mgr -> t
+    android.widget.LinearLayout wf_accessory_table -> u
+    android.widget.LinearLayout wf_acessory_area -> v
+    android.widget.LinearLayout wf_detail_sublist_content -> w
+    android.widget.LinearLayout wfdetail_area -> x
+    android.widget.LinearLayout wf_detail_fields -> y
+    android.view.GestureDetector mGestureDetector -> z
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void setBackground() -> g
+    void setUpView() -> a
+    void init() -> b
+    void setUpListeners() -> c
+    void refreshDetail() -> d
+    void getOpinionList() -> e
+    void refresh(java.lang.Object[]) -> a
+    void addRead() -> f
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    boolean onDown(android.view.MotionEvent) -> onDown
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    void onLongPress(android.view.MotionEvent) -> onLongPress
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+    void onShowPress(android.view.MotionEvent) -> onShowPress
+    boolean onSingleTapUp(android.view.MotionEvent) -> onSingleTapUp
+    android.os.Handler access$0(koa.android.demo.WfNoticeActivity) -> a
+    java.lang.String access$1(koa.android.demo.WfNoticeActivity) -> b
+    android.content.Intent access$2(koa.android.demo.WfNoticeActivity) -> c
+    android.app.DownloadManager access$3(koa.android.demo.WfNoticeActivity) -> d
+    android.widget.LinearLayout access$4(koa.android.demo.WfNoticeActivity) -> e
+    android.widget.LinearLayout access$5(koa.android.demo.WfNoticeActivity) -> f
+    android.widget.LinearLayout access$6(koa.android.demo.WfNoticeActivity) -> g
+    android.widget.TextView access$7(koa.android.demo.WfNoticeActivity) -> h
+    android.widget.LinearLayout access$8(koa.android.demo.WfNoticeActivity) -> i
+    android.widget.LinearLayout access$9(koa.android.demo.WfNoticeActivity) -> j
+    java.lang.String access$10(koa.android.demo.WfNoticeActivity) -> k
+koa.android.demo.WfNoticeActivity$1 -> koa.android.demo.de:
+    koa.android.demo.WfNoticeActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfNoticeActivity$2 -> koa.android.demo.df:
+    koa.android.demo.WfNoticeActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfNoticeActivity$GetWfNoticeHandler -> koa.android.demo.dg:
+    koa.android.demo.WfNoticeActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+koa.android.demo.WfNoticeActivity$GetWfPageThread -> koa.android.demo.dh:
+    koa.android.demo.WfNoticeActivity this$0 -> a
+    void run() -> run
+koa.android.demo.WfPageActivity -> koa.android.demo.WfPageActivity:
+    android.widget.Button title_bt_left -> a
+    android.widget.TextView top_title -> b
+    android.widget.Button transBtn -> c
+    android.widget.Button examBtn -> d
+    android.widget.Button optionBtn -> e
+    android.widget.Button formviewBtn -> f
+    android.widget.TextView tvWfTitle -> g
+    android.widget.TextView tvWfCreateuser -> h
+    android.widget.TextView tvWfCreatedate -> i
+    android.widget.TextView tvWfMemo -> j
+    java.lang.String baseUrl -> k
+    android.os.Handler handler -> l
+    java.util.concurrent.ExecutorService executorService -> m
+    int THREADPOOL_SIZE -> n
+    android.content.Intent intent -> o
+    java.lang.String formjson -> p
+    int firstAuditId -> q
+    android.app.ProgressDialog pd -> r
+    java.lang.String opinionButtonJson -> s
+    boolean dataReturnFlag -> t
+    java.lang.String instanceId -> u
+    java.lang.String taskId -> v
+    java.lang.String flowTitle -> w
+    int jsonStatus -> x
+    android.widget.LinearLayout wf_detail_operate_bar -> y
+    android.widget.RelativeLayout wf_read_process_bar -> z
+    android.app.DownloadManager mgr -> A
+    android.widget.LinearLayout wf_accessory_table -> B
+    android.widget.LinearLayout wf_acessory_area -> C
+    android.widget.LinearLayout wf_detail_sublist_content -> D
+    android.widget.LinearLayout wfdetail_area -> E
+    android.widget.LinearLayout wf_detail_fields -> F
+    android.view.GestureDetector mGestureDetector -> G
+    android.widget.ScrollView wf_all_ScrollView -> H
+    android.widget.FrameLayout wf_main_FrameLayout -> I
+    boolean wetherCanDeal -> J
+    boolean timeOutFlag -> K
+    void onCreate(android.os.Bundle) -> onCreate
+    void setUpView() -> a
+    void onRestart() -> onRestart
+    void setBackground() -> g
+    void init() -> b
+    void setUpListeners() -> c
+    void refreshDetail() -> d
+    void refresh(java.lang.Object[]) -> a
+    void transaction() -> e
+    void opinion_Audit_Save() -> f
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    boolean onDown(android.view.MotionEvent) -> onDown
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    void onLongPress(android.view.MotionEvent) -> onLongPress
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+    void onShowPress(android.view.MotionEvent) -> onShowPress
+    boolean onSingleTapUp(android.view.MotionEvent) -> onSingleTapUp
+    android.os.Handler access$0(koa.android.demo.WfPageActivity) -> a
+    void access$1(koa.android.demo.WfPageActivity,boolean) -> a
+    android.widget.RelativeLayout access$2(koa.android.demo.WfPageActivity) -> b
+    java.lang.String access$3(koa.android.demo.WfPageActivity) -> c
+    void access$4(koa.android.demo.WfPageActivity,boolean) -> b
+    android.content.Intent access$5(koa.android.demo.WfPageActivity) -> d
+    android.app.DownloadManager access$6(koa.android.demo.WfPageActivity) -> e
+    android.widget.LinearLayout access$7(koa.android.demo.WfPageActivity) -> f
+    android.widget.LinearLayout access$8(koa.android.demo.WfPageActivity) -> g
+    android.widget.LinearLayout access$9(koa.android.demo.WfPageActivity) -> h
+    android.widget.TextView access$10(koa.android.demo.WfPageActivity) -> i
+    android.widget.LinearLayout access$11(koa.android.demo.WfPageActivity) -> j
+    java.lang.String access$12(koa.android.demo.WfPageActivity) -> k
+    java.lang.String access$13(koa.android.demo.WfPageActivity) -> l
+    android.widget.LinearLayout access$14(koa.android.demo.WfPageActivity) -> m
+    void access$15(koa.android.demo.WfPageActivity,java.lang.String) -> a
+    java.lang.String access$16(koa.android.demo.WfPageActivity) -> n
+    void access$17(koa.android.demo.WfPageActivity,int) -> a
+    void access$18(koa.android.demo.WfPageActivity,boolean) -> c
+    boolean access$19(koa.android.demo.WfPageActivity) -> o
+    boolean access$20(koa.android.demo.WfPageActivity) -> p
+    boolean access$21(koa.android.demo.WfPageActivity) -> q
+    int access$22(koa.android.demo.WfPageActivity) -> r
+    void access$23(koa.android.demo.WfPageActivity,android.app.ProgressDialog) -> a
+    android.app.ProgressDialog access$24(koa.android.demo.WfPageActivity) -> s
+    void access$25(koa.android.demo.WfPageActivity,int) -> b
+    java.lang.String access$26(koa.android.demo.WfPageActivity) -> t
+koa.android.demo.WfPageActivity$1 -> koa.android.demo.di:
+    koa.android.demo.WfPageActivity this$0 -> a
+    void run() -> run
+koa.android.demo.WfPageActivity$2 -> koa.android.demo.dj:
+    koa.android.demo.WfPageActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfPageActivity$3 -> koa.android.demo.dk:
+    koa.android.demo.WfPageActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfPageActivity$4 -> koa.android.demo.dl:
+    koa.android.demo.WfPageActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfPageActivity$5 -> koa.android.demo.dm:
+    koa.android.demo.WfPageActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfPageActivity$6 -> koa.android.demo.dn:
+    koa.android.demo.WfPageActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfPageActivity$GetWFPageHandler -> koa.android.demo.do:
+    koa.android.demo.WfPageActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+koa.android.demo.WfPageActivity$GetWfPageThread -> koa.android.demo.dp:
+    koa.android.demo.WfPageActivity this$0 -> a
+    void run() -> run
+koa.android.demo.WfReadActivity -> koa.android.demo.WfReadActivity:
+    android.widget.Button title_bt_left -> a
+    android.widget.Button formviewBtn -> b
+    android.widget.TextView tvWfTitle -> c
+    android.widget.TextView tvWfCreateuser -> d
+    android.widget.TextView tvWfCreatedate -> e
+    android.widget.TextView tvWfMemo -> f
+    android.widget.TextView top_title -> g
+    java.lang.String baseUrl -> h
+    android.os.Handler handler -> i
+    java.util.concurrent.ExecutorService executorService -> j
+    int THREADPOOL_SIZE -> k
+    android.content.Intent intent -> l
+    java.lang.String formjson -> m
+    java.util.List opinionList_temp -> n
+    java.util.List opinionList -> o
+    android.widget.ListView listView -> p
+    koa.android.logic.WfOpinionAdapter adapter -> q
+    android.widget.LinearLayout list_Header -> r
+    android.widget.LinearLayout wf_read_process_bar -> s
+    java.lang.String openstate -> t
+    android.app.DownloadManager mgr -> u
+    android.widget.LinearLayout wf_accessory_table -> v
+    android.widget.LinearLayout wf_acessory_area -> w
+    android.widget.LinearLayout wf_detail_sublist_content -> x
+    android.widget.LinearLayout wfdetail_area -> y
+    android.widget.LinearLayout wf_detail_fields -> z
+    android.view.GestureDetector mGestureDetector -> A
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void setBackground() -> f
+    void setUpView() -> a
+    void init() -> b
+    void setUpListeners() -> c
+    void refreshDetail() -> d
+    void getOpinionList() -> e
+    void refresh(java.lang.Object[]) -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    boolean onDown(android.view.MotionEvent) -> onDown
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    void onLongPress(android.view.MotionEvent) -> onLongPress
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+    void onShowPress(android.view.MotionEvent) -> onShowPress
+    boolean onSingleTapUp(android.view.MotionEvent) -> onSingleTapUp
+    android.os.Handler access$0(koa.android.demo.WfReadActivity) -> a
+    java.lang.String access$1(koa.android.demo.WfReadActivity) -> b
+    android.content.Intent access$2(koa.android.demo.WfReadActivity) -> c
+    android.app.DownloadManager access$3(koa.android.demo.WfReadActivity) -> d
+    android.widget.LinearLayout access$4(koa.android.demo.WfReadActivity) -> e
+    android.widget.LinearLayout access$5(koa.android.demo.WfReadActivity) -> f
+    android.widget.LinearLayout access$6(koa.android.demo.WfReadActivity) -> g
+    android.widget.TextView access$7(koa.android.demo.WfReadActivity) -> h
+    android.widget.LinearLayout access$8(koa.android.demo.WfReadActivity) -> i
+    android.widget.LinearLayout access$9(koa.android.demo.WfReadActivity) -> j
+    java.lang.String access$10(koa.android.demo.WfReadActivity) -> k
+    java.lang.String access$11(koa.android.demo.WfReadActivity) -> l
+koa.android.demo.WfReadActivity$1 -> koa.android.demo.dq:
+    koa.android.demo.WfReadActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfReadActivity$2 -> koa.android.demo.dr:
+    koa.android.demo.WfReadActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.WfReadActivity$GetWfPageThread -> koa.android.demo.ds:
+    koa.android.demo.WfReadActivity this$0 -> a
+    void run() -> run
+koa.android.demo.WfReadActivity$GetWfReadHandler -> koa.android.demo.dt:
+    koa.android.demo.WfReadActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+koa.android.demo.model.Task -> koa.android.demo.a.a:
+    int taskId -> a
+    java.lang.String socketCmd -> b
+    java.lang.String sessionId -> c
+    java.lang.String activityName -> d
+    java.util.Map taskParams -> e
+    int getTaskId() -> a
+    java.util.Map getTaskParams() -> b
+    java.lang.String getSocketCmd() -> c
+    java.lang.String getSessionId() -> d
+    java.lang.String getActivityName() -> e
+koa.android.demo.model.User -> koa.android.demo.a.b:
+    java.lang.String userId -> a
+    java.lang.String password -> b
+    java.lang.String sessionId -> c
+    java.lang.String userName -> d
+    java.lang.String deviceId -> e
+    koa.android.demo.model.User instance -> f
+    java.lang.Object lock -> g
+    koa.android.demo.model.User getInstance() -> a
+    koa.android.demo.model.User getUserContext(android.content.Context) -> a
+    void setUserContext(koa.android.demo.model.User,android.content.Context) -> a
+    java.lang.String getUserId() -> b
+    java.lang.String getPassword() -> c
+    java.lang.String getSessionId() -> d
+    java.lang.String getUserName() -> e
+    void setUserName(java.lang.String) -> a
+    java.lang.String getDeviceId() -> f
+koa.android.demo.model.WFOpinionLogModel -> koa.android.demo.a.c:
+    java.lang.String userName -> a
+    java.lang.String wfPointName -> b
+    java.lang.String signDate -> c
+    java.lang.String message -> d
+    java.lang.String operation -> e
+    java.lang.String getUserName() -> a
+    void setUserName(java.lang.String) -> a
+    java.lang.String getWfPointName() -> b
+    void setWfPointName(java.lang.String) -> b
+    java.lang.String getSignDate() -> c
+    void setSignDate(java.lang.String) -> c
+    java.lang.String getMessage() -> d
+    void setMessage(java.lang.String) -> d
+    java.lang.String getOperation() -> e
+    void setOperation(java.lang.String) -> e
+koa.android.demo.model.WFRunModel -> koa.android.demo.a.d:
+    int routePointType -> a
+    int taskStatus -> b
+    int priority -> c
+    java.lang.String userlist -> d
+    int tranType -> e
+    int taskId -> f
+    int meId -> g
+    int workflowId -> h
+    int workflowStepId -> i
+    int instanceId -> j
+    int localDepartmentId -> k
+    int num -> l
+    int showType -> m
+    int wfStepNo -> n
+    java.lang.String wfStepNAME -> o
+    java.lang.String getUserlist() -> a
+    void setUserlist(java.lang.String) -> a
+    void setTranType(int) -> a
+    int getWfStepNo() -> b
+    void setWfStepNo(int) -> b
+    java.lang.String getWfStepNAME() -> c
+    void setWfStepNAME(java.lang.String) -> b
+    int getPriority() -> d
+    void setPriority(int) -> c
+    int getTaskStatus() -> e
+    void setTaskStatus(int) -> d
+    int getRoutePointType() -> f
+    void setRoutePointType(int) -> e
+    void setTaskId(int) -> f
+    void setMeId(int) -> g
+    void setWorkflowId(int) -> h
+    void setWorkflowStepId(int) -> i
+    void setInstanceId(int) -> j
+    int getLocalDepartmentId() -> g
+    void setLocalDepartmentId(int) -> k
+    int getNum() -> h
+    void setNum(int) -> l
+    int getShowType() -> i
+    void setShowType(int) -> m
+koa.android.demo.model.WFTaskModel -> koa.android.demo.a.e:
+    java.lang.String taskTitle -> a
+    java.lang.String owner -> b
+    java.lang.String tagetUser -> c
+    java.lang.String taskdate -> d
+    java.lang.String instanceId -> e
+    java.lang.String taskId -> f
+    java.lang.String status -> g
+    java.lang.String isRead -> h
+    java.lang.String owner_CN -> i
+    java.lang.String isCancel -> j
+    java.lang.String getIsCancel() -> a
+    void setIsCancel(java.lang.String) -> a
+    java.lang.String getIsRead() -> b
+    void setIsRead(java.lang.String) -> b
+    java.lang.String getStatus() -> c
+    void setStatus(java.lang.String) -> c
+    java.lang.String getTaskId() -> d
+    void setTaskId(java.lang.String) -> d
+    java.lang.String getOwner() -> e
+    void setOwner(java.lang.String) -> e
+    java.lang.String getTagetUser() -> f
+    void setTagetUser(java.lang.String) -> f
+    java.lang.String getTaskTitle() -> g
+    void setTaskTitle(java.lang.String) -> g
+    java.lang.String getTaskdate() -> h
+    void setTaskdate(java.lang.String) -> h
+    java.lang.String getInstanceId() -> i
+    void setInstanceId(java.lang.String) -> i
+    java.lang.String getOwner_CN() -> j
+    void setOwner_CN(java.lang.String) -> j
+koa.android.demo.noticeListActivity -> koa.android.demo.noticeListActivity:
+    java.util.List taskList -> b
+    java.util.List taskList_page -> c
+    android.app.ProgressDialog pd -> d
+    android.widget.TextView top_title -> e
+    android.widget.Button title_bt_left -> f
+    android.widget.Button title_bt_right -> g
+    android.widget.ListView listView -> h
+    android.os.Handler handler -> i
+    koa.android.logic.WfOtherAdapter adapter -> j
+    android.widget.LinearLayout list_footer -> k
+    android.widget.TextView foot_msg -> l
+    android.widget.LinearLayout foot_loading -> m
+    java.util.concurrent.ExecutorService executorService -> n
+    java.lang.String todolist_json -> o
+    int PAGE_SIZE -> p
+    int PAGE_NUM -> q
+    int THREADPOOL_SIZE -> r
+    int listStatus -> s
+    android.widget.EditText searchText -> t
+    android.graphics.drawable.Drawable wfSearchClear -> u
+    android.graphics.drawable.Drawable wfSearchGo -> v
+    int searchStatus -> w
+    int cacheInputType -> a
+    java.util.List cacheTaskList -> x
+    int catchPageNum -> y
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void setBackground() -> d
+    void setUpView() -> a
+    void setUpListeners() -> b
+    void clearSearchAndConsumeList() -> e
+    void clearListAndLoadSearch() -> f
+    void refreshSearchResult(int,int) -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onMenuItemSelected(int,android.view.MenuItem) -> onMenuItemSelected
+    void refreshList(int,int) -> b
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> onListItemClick
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    int access$0(koa.android.demo.noticeListActivity) -> a
+    void access$1(koa.android.demo.noticeListActivity,int) -> a
+    int access$2() -> c
+    android.os.Handler access$3(koa.android.demo.noticeListActivity) -> b
+    java.lang.String access$4(koa.android.demo.noticeListActivity) -> c
+    void access$5(koa.android.demo.noticeListActivity,java.util.List) -> a
+    java.util.List access$6(koa.android.demo.noticeListActivity) -> d
+    java.util.List access$7(koa.android.demo.noticeListActivity) -> e
+    void access$8(koa.android.demo.noticeListActivity,java.util.List) -> b
+    void access$9(koa.android.demo.noticeListActivity,koa.android.logic.WfOtherAdapter) -> a
+    koa.android.logic.WfOtherAdapter access$10(koa.android.demo.noticeListActivity) -> f
+    android.widget.ListView access$11(koa.android.demo.noticeListActivity) -> g
+    android.widget.LinearLayout access$12(koa.android.demo.noticeListActivity) -> h
+    android.widget.TextView access$13(koa.android.demo.noticeListActivity) -> i
+    int access$14(koa.android.demo.noticeListActivity) -> j
+    java.util.concurrent.ExecutorService access$15(koa.android.demo.noticeListActivity) -> k
+    android.widget.EditText access$16(koa.android.demo.noticeListActivity) -> l
+    android.graphics.drawable.Drawable access$17(koa.android.demo.noticeListActivity) -> m
+    void access$18(koa.android.demo.noticeListActivity,int) -> b
+    int access$19(koa.android.demo.noticeListActivity) -> n
+    void access$20(koa.android.demo.noticeListActivity) -> o
+    android.graphics.drawable.Drawable access$21(koa.android.demo.noticeListActivity) -> p
+    void access$22(koa.android.demo.noticeListActivity) -> q
+koa.android.demo.noticeListActivity$1 -> koa.android.demo.du:
+    koa.android.demo.noticeListActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.noticeListActivity$2 -> koa.android.demo.dv:
+    koa.android.demo.noticeListActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.noticeListActivity$3 -> koa.android.demo.dw:
+    koa.android.demo.noticeListActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.demo.noticeListActivity$4 -> koa.android.demo.dx:
+    boolean isnull -> b
+    koa.android.demo.noticeListActivity this$0 -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+koa.android.demo.noticeListActivity$5 -> koa.android.demo.dy:
+    koa.android.demo.noticeListActivity this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+koa.android.demo.noticeListActivity$GeTodoListAllThread -> koa.android.demo.dz:
+    koa.android.demo.noticeListActivity this$0 -> a
+    void run() -> run
+koa.android.demo.noticeListActivity$GetSearchResultThread -> koa.android.demo.ea:
+    koa.android.demo.noticeListActivity this$0 -> a
+    void run() -> run
+koa.android.demo.noticeListActivity$GetTodoListAllHandler -> koa.android.demo.eb:
+    koa.android.demo.noticeListActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+koa.android.logic.ActivityHoder -> koa.android.logic.ActivityHoder:
+    java.util.List activityList -> a
+    koa.android.logic.ActivityHoder instance -> b
+    koa.android.logic.ActivityHoder getInstance() -> a
+    void addActivity(android.app.Activity) -> a
+    void exit() -> b
+koa.android.logic.CheckUser -> koa.android.logic.a:
+    org.apache.http.HttpResponse httpResponse -> b
+    org.apache.http.HttpEntity httpEntity -> c
+    java.lang.String returnStr -> a
+    java.lang.String check(java.lang.String,java.lang.String,java.lang.String,android.content.Context) -> a
+    org.apache.http.client.HttpClient getHttpClient() -> a
+koa.android.logic.MainService -> koa.android.logic.MainService:
+    java.util.Queue tasks -> b
+    java.util.ArrayList appActivities -> c
+    boolean isRun -> d
+    boolean isPushRun -> e
+    java.lang.String curWfTodoNum -> f
+    int FETCH_INTERVAL -> g
+    android.app.NotificationManager KoaNotiManager -> h
+    android.os.Handler handler -> a
+    void addActivity(android.app.Activity) -> a
+    void newTask(koa.android.demo.model.Task) -> a
+    void setCurWfTodoNum(java.lang.String) -> a
+    java.lang.String getCurWfTodoNum() -> a
+    void setPushRun(boolean) -> a
+    android.app.Activity getActivityByName(java.lang.String) -> b
+    void onCreate() -> onCreate
+    void run() -> run
+    void doTask(koa.android.demo.model.Task) -> b
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void AlertNetError(android.content.Context) -> a
+    void exitApp(android.content.Context) -> b
+    void promptExit(android.content.Context) -> c
+    void fetchNewWf() -> b
+    void setNotiType(int,java.lang.String,int) -> a
+    koa.android.demo.model.WFTaskModel getJumpParam() -> c
+    android.app.Activity access$0(koa.android.logic.MainService,java.lang.String) -> a
+koa.android.logic.MainService$1 -> koa.android.logic.b:
+    koa.android.logic.MainService this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+koa.android.logic.MainService$2 -> koa.android.logic.c:
+    android.content.Context val$context -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+koa.android.logic.MainService$3 -> koa.android.logic.d:
+    android.content.Context val$context -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+koa.android.logic.MainService$4 -> koa.android.logic.e:
+    android.content.Context val$con -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+koa.android.logic.ProgressDialogHolder -> koa.android.logic.ProgressDialogHolder:
+    java.util.List progressDialogList -> a
+    koa.android.logic.ProgressDialogHolder instance -> b
+    koa.android.logic.ProgressDialogHolder getInstance() -> a
+    void addActivity(android.app.ProgressDialog) -> a
+    void exit() -> b
+koa.android.logic.PullToRefreshListView -> koa.android.logic.PullToRefreshListView:
+    koa.android.logic.PullToRefreshListView$OnRefreshListener mOnRefreshListener -> b
+    android.app.Activity context -> a
+    android.widget.AbsListView$OnScrollListener mOnScrollListener -> c
+    android.view.LayoutInflater mInflater -> d
+    android.widget.Adapter adapter -> e
+    boolean isFirstRun -> f
+    boolean isActionDown -> g
+    android.widget.LinearLayout mRefreshView -> h
+    android.view.View footerView -> i
+    android.widget.TextView mRefreshViewText -> j
+    android.widget.ImageView mRefreshViewImage -> k
+    android.widget.ProgressBar mRefreshViewProgress -> l
+    android.widget.TextView mRefreshViewLastUpdated -> m
+    int mCurrentScrollState -> n
+    int mRefreshState -> o
+    android.view.animation.RotateAnimation mFlipAnimation -> p
+    android.view.animation.RotateAnimation mReverseFlipAnimation -> q
+    int mRefreshViewHeight -> r
+    int mFooterViewHeight -> s
+    int mRefreshOriginalTopPadding -> t
+    int mLastMotionY -> u
+    int mItemTotalHeight -> v
+    int mAdapterCount -> w
+    int mWindowHeight -> x
+    void init(android.content.Context) -> a
+    void onAttachedToWindow() -> onAttachedToWindow
+    void setFooterHeight() -> setFooterHeight
+    void setAdapter(android.widget.ListAdapter) -> setAdapter
+    void setOnScrollListener(android.widget.AbsListView$OnScrollListener) -> setOnScrollListener
+    void setOnRefreshListener(koa.android.logic.PullToRefreshListView$OnRefreshListener) -> setOnRefreshListener
+    void setLastUpdated() -> setLastUpdated
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void applyHeaderPadding(android.view.MotionEvent) -> a
+    void resetHeaderPadding() -> d
+    void resetHeader() -> e
+    void measureView(android.view.View) -> a
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void prepareForRefresh() -> a
+    void onRefresh() -> b
+    void onRefreshComplete() -> c
+    int access$0(koa.android.logic.PullToRefreshListView) -> a
+koa.android.logic.PullToRefreshListView$OnClickRefreshListener -> koa.android.logic.f:
+    koa.android.logic.PullToRefreshListView this$0 -> a
+    void onClick(android.view.View) -> onClick
+koa.android.logic.PullToRefreshListView$OnRefreshListener -> koa.android.logic.g:
+    void onRefresh() -> a
+koa.android.logic.WfAdapter -> koa.android.logic.h:
+    java.util.List alls -> a
+    android.content.Context context -> b
+    int getCount() -> getCount
+    koa.android.demo.model.WFTaskModel getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+koa.android.logic.WfCancelAdapter -> koa.android.logic.i:
+    java.util.List alls -> a
+    android.content.Context context -> b
+    java.lang.String fromActivity -> c
+    int getCount() -> getCount
+    koa.android.demo.model.WFTaskModel getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+koa.android.logic.WfCancelAdapter$1 -> koa.android.logic.j:
+    koa.android.logic.WfCancelAdapter this$0 -> a
+    int val$position -> b
+    void onClick(android.view.View) -> onClick
+koa.android.logic.WfMainAdapter -> koa.android.logic.k:
+    java.util.List alls -> a
+    android.content.Context context -> b
+    int getCount() -> getCount
+    java.util.HashMap getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+koa.android.logic.WfOpinionAdapter -> koa.android.logic.l:
+    java.util.List alls -> a
+    android.content.Context context -> b
+    int getCount() -> getCount
+    koa.android.demo.model.WFOpinionLogModel getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+koa.android.logic.WfOtherAdapter -> koa.android.logic.m:
+    java.util.List alls -> a
+    android.content.Context context -> b
+    int getCount() -> getCount
+    koa.android.demo.model.WFTaskModel getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+koa.android.logic.WfSubListAdapter -> koa.android.logic.n:
+    java.util.List alls -> a
+    android.content.Context context -> b
+    int getCount() -> getCount
+    java.util.List getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    android.widget.LinearLayout createRow(java.lang.String,int,java.lang.String,int) -> a
+    java.lang.Object getItem(int) -> getItem
+koa.android.tools.Base64Encoder -> koa.android.a.a:
+    char last2byte -> a
+    char last4byte -> b
+    char last6byte -> c
+    char lead6byte -> d
+    char lead4byte -> e
+    char lead2byte -> f
+    char[] encodeTable -> g
+    java.lang.String encode(byte[]) -> a
+koa.android.tools.CreateFieldsHelper -> koa.android.a.b:
+    koa.android.tools.CreateFieldsHelper instance -> a
+    java.lang.Object lock -> b
+    koa.android.tools.CreateFieldsHelper getInstance() -> a
+    void createSubFields(android.content.Context,java.lang.String,android.widget.LinearLayout) -> a
+    android.widget.LinearLayout createRow(android.content.Context,java.lang.String,java.lang.String) -> a
+koa.android.tools.CreateSubTableHelper -> koa.android.a.c:
+    koa.android.tools.CreateSubTableHelper instance -> a
+    java.lang.Object lock -> b
+    koa.android.tools.CreateSubTableHelper getInstance() -> a
+    void createSubTable(java.lang.String,android.content.Context,java.lang.String,java.lang.String,java.lang.String,android.widget.LinearLayout) -> a
+    android.widget.RelativeLayout createSubTableRow(java.lang.String,android.content.Context,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String) -> a
+koa.android.tools.CreateSubTableHelper$1 -> koa.android.a.d:
+    koa.android.tools.CreateSubTableHelper this$0 -> a
+    java.lang.String val$tableTitle -> b
+    java.lang.String val$tableName -> c
+    java.lang.String val$instanceId -> d
+    java.lang.String val$taskId -> e
+    java.lang.String val$fromActivity -> f
+    android.content.Context val$con -> g
+    void onClick(android.view.View) -> onClick
+koa.android.tools.HttpResponseUtil -> koa.android.a.e:
+    java.lang.String baseurl -> a
+    java.lang.String downloadurl -> b
+    java.lang.String curIp -> c
+    boolean isAccessIpFormat -> d
+    koa.android.tools.HttpResponseUtil instance -> e
+    java.lang.Object lock -> f
+    koa.android.tools.HttpResponseUtil getInstance() -> a
+    java.lang.String getGetHttpInfo(java.lang.String,java.lang.String,java.util.HashMap,android.content.Context) -> a
+    byte[] readInputStream(java.io.InputStream) -> a
+    java.lang.String getBaseUrl(android.content.Context) -> a
+    java.lang.String getDownloadUrl(android.content.Context) -> b
+    java.lang.String getServiceAddress(android.content.Context) -> c
+    java.lang.String decode(java.lang.String) -> a
+    java.lang.String deleteZero(java.lang.String) -> b
+    void addServiceIPLog(android.content.Context,java.lang.String) -> a
+    java.util.List getServiceIPLog(android.content.Context) -> d
+    void reLogin(android.content.Context) -> e
+koa.android.tools.HttpResponseUtil$1 -> koa.android.a.f:
+    koa.android.tools.HttpResponseUtil this$0 -> a
+    android.content.Context val$context -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+koa.android.tools.JsonUtil -> koa.android.a.g:
+    java.lang.String parseJson(java.lang.String,java.lang.String) -> a
+    java.util.List parseWfJsonMulti(java.lang.String) -> a
+    koa.android.demo.model.WFRunModel parseRunJson(java.lang.String) -> b
+    java.util.List parseWFOpinionLog(java.lang.String) -> c
+    java.util.List parseWfSubListMulti(java.lang.String,java.lang.String) -> b
+koa.android.tools.NetUtil -> koa.android.a.h:
+    boolean checkNet(android.content.Context) -> a
+koa.android.tools.OpenDownloadFileUtil -> koa.android.a.i:
+    android.content.Intent getOpenFileIntent(java.lang.String) -> a
+    android.content.Intent getAllIntent(java.lang.String) -> b
+    android.content.Intent getApkFileIntent(java.lang.String) -> c
+    android.content.Intent getAudioFileIntent(java.lang.String) -> d
+    android.content.Intent getImageFileIntent(java.lang.String) -> e
+    android.content.Intent getPptFileIntent(java.lang.String) -> f
+    android.content.Intent getExcelFileIntent(java.lang.String) -> g
+    android.content.Intent getWordFileIntent(java.lang.String) -> h
+    android.content.Intent getChmFileIntent(java.lang.String) -> i
+    android.content.Intent getTextFileIntent(java.lang.String,boolean) -> a
+    android.content.Intent getPdfFileIntent(java.lang.String) -> j
+koa.android.tools.SQLLiteUtil -> koa.android.a.j:
+    android.content.Context mCtx -> a
+    koa.android.tools.SQLLiteUtil$DatabaseHelper mDbHelper -> b
+    android.database.sqlite.SQLiteDatabase mDb -> c
+    koa.android.tools.SQLLiteUtil open() -> a
+    void close() -> b
+    long createUser(java.lang.String,java.lang.String) -> a
+    boolean deleteUser(java.lang.String) -> a
+    android.database.Cursor fetchAllUsers() -> c
+koa.android.tools.SQLLiteUtil$DatabaseHelper -> koa.android.a.k:
+    koa.android.tools.SQLLiteUtil this$0 -> a
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+koa.android.tools.SetBackGround -> koa.android.a.l:
+    koa.android.tools.SetBackGround instance -> a
+    java.lang.Object lock -> b
+    java.util.HashMap picMap -> c
+    int BLUE_THEME_UI_LOGIN_BTN -> d
+    int BLUE_THEME_UI_LOGIN_LOGO -> e
+    int BLUE_THEME_UI_LOGIN_SETTING -> f
+    int BLUE_THEME_GRIDVIEW -> g
+    int BLUE_THEME_TITLE -> h
+    int BLUE_THEME_TITLE_SAVE -> i
+    int BLUE_THEME_TITLE_LEFT -> j
+    int BLUE_THEME_TITLE_RIGHT -> k
+    int BLUE_THEME_FORMVIEW -> l
+    int BLUE_THEME_OPERATE_BAR -> m
+    int BLUE_THEME_LIST_UNREAD -> n
+    int BLUE_THEME_LIST_RECYLE -> o
+    int BLUE_THEME_LIST_NOTICE -> p
+    int BLUE_THEME_LIST_CANCLE -> q
+    int ORANGE_THEME_UI_LOGIN_BTN -> r
+    int ORANGE_THEME_UI_LOGIN_LOGO -> s
+    int ORANGE_THEME_UI_LOGIN_SETTING -> t
+    int ORANGE_THEME_GRIDVIEW -> u
+    int ORANGE_THEME_TITLE -> v
+    int ORANGE_THEME_TITLE_SAVE -> w
+    int ORANGE_THEME_TITLE_LEFT -> x
+    int ORANGE_THEME_TITLE_RIGHT -> y
+    int ORANGE_THEME_FORMVIEW -> z
+    int ORANGE_THEME_OPERATE_BAR -> A
+    int ORANGE_THEME_LIST_UNREAD -> B
+    int ORANGE_THEME_LIST_RECYLE -> C
+    int ORANGE_THEME_LIST_NOTICE -> D
+    int ORANGE_THEME_LIST_CANCLE -> E
+    int BLACK_THEME_UI_LOGIN_BTN -> F
+    int BLACK_THEME_UI_LOGIN_LOGO -> G
+    int BLACK_THEME_UI_LOGIN_SETTING -> H
+    int BLACK_THEME_GRIDVIEW -> I
+    int BLACK_THEME_TITLE -> J
+    int BLACK_THEME_TITLE_SAVE -> K
+    int BLACK_THEME_TITLE_LEFT -> L
+    int BLACK_THEME_TITLE_RIGHT -> M
+    int BLACK_THEME_FORMVIEW -> N
+    int BLACK_THEME_OPERATE_BAR -> O
+    int BLACK_THEME_LIST_UNREAD -> P
+    int BLACK_THEME_LIST_RECYLE -> Q
+    int BLACK_THEME_LIST_NOTICE -> R
+    int BLACK_THEME_LIST_CANCLE -> S
+    koa.android.tools.SetBackGround getInstance() -> a
+    java.lang.String getTheme(android.content.Context) -> a
+    void setTheme(android.content.Context,android.view.View,java.lang.String,int,android.graphics.Shader$TileMode) -> a
+    void setGridviewBG(android.content.Context,android.view.View,java.lang.String,int,android.graphics.Shader$TileMode) -> b
+    int getAccessoryBg(java.lang.String) -> a
+koa.android.tools.parseXMLsymbol -> koa.android.a.m:
+    koa.android.tools.parseXMLsymbol instance -> a
+    java.lang.Object lock -> b
+    koa.android.tools.parseXMLsymbol getInstance() -> a
+    java.lang.String parseXML(java.lang.String) -> a

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/todolistall_main_linearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/process_title"
+        layout="@layout/title_two_button" />
+
+    <include
+        android:id="@+id/wf_list_search_area"
+        layout="@layout/wf_list_search_header" />
+    
+    <koa.android.logic.PullToRefreshListView android:id="@+id/pullToRefreshListView"
+          android:layout_width="fill_parent" 
+   		  android:layout_height="fill_parent"
+   		  android:drawSelectorOnTop="false"
+   		  android:fadeScrollbars="false" 
+   		  android:fastScrollEnabled="true"
+   		  android:background="#FFFFFF" 
+   		  android:divider="@drawable/wf_list_devider_bg"
+   		  android:cacheColorHint="#00000000"
+          android:scrollbars="vertical"/> 
+</LinearLayout>

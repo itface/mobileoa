@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/aws.android/!svn/ver/75/trunk/proguard
+END
+seeds.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/aws.android/!svn/ver/75/trunk/proguard/seeds.txt
+END
+usage.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/aws.android/!svn/ver/75/trunk/proguard/usage.txt
+END
+dump.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/aws.android/!svn/ver/75/trunk/proguard/dump.txt
+END
+mapping.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/aws.android/!svn/ver/75/trunk/proguard/mapping.txt
+END

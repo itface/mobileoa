@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20.0dip" >
+
+    <ImageView
+        android:id="@+id/ItemImage"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/ItemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ItemImage"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+	
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/toDoNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignRight="@+id/ItemImage"
+        android:layout_alignTop="@+id/ItemImage"
+        android:background="@drawable/ui_main_todo_num"
+        android:text="1"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+</RelativeLayout>

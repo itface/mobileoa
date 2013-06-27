@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/ui_setting_theme_layout"
+    android:background="@drawable/wf_detail_button_bar_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/process_title"
+        layout="@layout/title_two_button" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300px"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ui_setting_select_theme_thumbnail_blue"
+            android:layout_width="130px"
+            android:layout_height="200px"
+            android:scaleType="fitXY"
+            android:layout_margin="15px"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ui_setting_select_theme_thumbnail_blue" />
+
+        <ImageView
+            android:id="@+id/ui_setting_select_theme_thumbnail_orange"
+            android:layout_width="130px"
+            android:layout_height="200px"
+            android:scaleType="fitXY"
+            android:layout_margin="15px"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ui_setting_select_theme_thumbnail_orange" />
+
+        <ImageView
+            android:id="@+id/ui_setting_select_theme_thumbnail_black"
+            android:layout_width="130px"
+            android:layout_height="200px"
+            android:scaleType="fitXY"
+            android:layout_margin="15px"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ui_setting_select_theme_thumbnail_black" />
+
+    </RelativeLayout>
+
+</LinearLayout>

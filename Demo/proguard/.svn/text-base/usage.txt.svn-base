@@ -1,0 +1,182 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+koa.android.demo.AddsignActivity:
+    private static final int FLING_MIN_DISTANCE
+    private static final int FLING_MIN_VELOCITY
+koa.android.demo.BuildConfig
+koa.android.demo.DownloadHelper:
+    private static final java.lang.String DIR
+    public static final int MSG_DWPACKSIZE
+    public static final int MSG_DWSIZE
+koa.android.demo.HistoryListActivity:
+    private static final int LOAD_STATUS
+    private static final int SEARCH_STATUS
+    public static final int NOMAL_STATUS
+    public static final int GO_STATUS
+    public static final int CLEAR_STATUS
+koa.android.demo.KoaActivity:
+    public abstract void init()
+koa.android.demo.LoginActivity:
+    public static final double APP_VERSION
+    public static final java.lang.String APP_INSTALLER_NAME
+koa.android.demo.OpinionHistoryActivity:
+    private static final int FLING_MIN_DISTANCE
+    private static final int FLING_MIN_VELOCITY
+koa.android.demo.R
+koa.android.demo.R$anim
+koa.android.demo.R$attr
+koa.android.demo.R$color
+koa.android.demo.R$drawable
+koa.android.demo.R$id
+koa.android.demo.R$layout
+koa.android.demo.R$string
+koa.android.demo.R$style
+koa.android.demo.R$xml
+koa.android.demo.SendNextActivity:
+    private static final int FLING_MIN_DISTANCE
+    private static final int FLING_MIN_VELOCITY
+koa.android.demo.SettingServiceIPActivity:
+    public static final java.lang.String SETTING_SERVICE_IP
+    public static final java.lang.String SETTING_SERVICE_IP_DEFAULT
+koa.android.demo.TodoListActivity:
+    private static final int LOAD_STATUS
+    private static final int SEARCH_STATUS
+    public static final int NOMAL_STATUS
+    public static final int GO_STATUS
+    public static final int CLEAR_STATUS
+koa.android.demo.UISettingActivity:
+    public static final java.lang.String PUSH_MSG_KEY
+    public static final boolean PUSH_MSG_DEFAULT
+    public static final java.lang.String SELECT_MAIN_BG_KEY
+    public static final java.lang.String SELECT_MAIN_THEME_KEY
+    public static final java.lang.String SELECT_MAIN_THEME_DEFAULT
+    public static final java.lang.String CHECK_FOR_NEW_VERSION
+    public static final int REQUEST_CODE_BG
+    public static final int REQUEST_CODE_THEME
+koa.android.demo.UISettingSelectTheme:
+    private static final int FLING_MIN_DISTANCE
+    private static final int FLING_MIN_VELOCITY
+koa.android.demo.WFSubListActivity:
+    private static final int FLING_MIN_DISTANCE
+    private static final int FLING_MIN_VELOCITY
+koa.android.demo.WfAddNoticeActivity:
+    private static final int FLING_MIN_DISTANCE
+    private static final int FLING_MIN_VELOCITY
+koa.android.demo.WfAddsignActivity:
+    private static final int FLING_MIN_DISTANCE
+    private static final int FLING_MIN_VELOCITY
+koa.android.demo.WfAddsignOpinionActivity:
+    private static final int OPININON_SAVE
+    private static final int TRANSACTION
+    private static final int FLING_MIN_DISTANCE
+    private static final int FLING_MIN_VELOCITY
+koa.android.demo.WfCancelActivity:
+    private static final int FLING_MIN_DISTANCE
+    private static final int FLING_MIN_VELOCITY
+koa.android.demo.WfExamActivity:
+    private static final int OPININON_SAVE
+    private static final int TRANSACTION
+    private static final int FLING_MIN_DISTANCE
+    private static final int FLING_MIN_VELOCITY
+koa.android.demo.WfNoticeActivity:
+    private static final int FLING_MIN_DISTANCE
+    private static final int FLING_MIN_VELOCITY
+koa.android.demo.WfPageActivity:
+    private static final int OPININON_SAVE
+    private static final int TRANSACTION
+    private static final int FLING_MIN_DISTANCE
+    private static final int FLING_MIN_VELOCITY
+koa.android.demo.WfReadActivity:
+    private static final int FLING_MIN_DISTANCE
+    private static final int FLING_MIN_VELOCITY
+koa.android.demo.model.Task:
+    public static final int KOA_COMMON
+    public static final int KOA_LOGIN
+    public static final int KOA_NO_BACK
+    58:59:public void setTaskId(int)
+    72:73:public void setTaskParams(java.util.Map)
+    84:85:public void setSocketCmd(java.lang.String)
+    96:97:public void setSessionId(java.lang.String)
+    104:105:public void setActivityName(java.lang.String)
+koa.android.demo.model.User:
+    private static final long serialVersionUID
+    112:113:public void setUserId(java.lang.String)
+    118:119:public void setPassword(java.lang.String)
+    124:125:public void setSessionId(java.lang.String)
+    136:137:public void setDeviceId(java.lang.String)
+koa.android.demo.model.WFOpinionLogModel:
+    21:27:public WFOpinionLogModel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+koa.android.demo.model.WFRunModel:
+    private static final long serialVersionUID
+    public static final int TASK_TYPE_ERROR
+    public static final int TASK_TYPE_TRANSACTION
+    public static final int TASK_TYPE_ARCHIVES
+    public static final int TASK_TYPE_NOFIND_SENDER
+    public static final int TASK_TYPE_NOFIND_TASK_END
+    public static final int TRANSITION_TYPE_USERINPUT
+    public static final int TRANSITION_TYPE_SELECT
+    public static final int TRANSITION_TYPE_SENDALL
+    private int stepLimit
+    private java.lang.String taskTitle
+    126:126:public int getTranType()
+    185:185:public java.lang.String getTaskTitle()
+    192:193:public void setTaskTitle(java.lang.String)
+    227:227:public int getStepLimit()
+    230:231:public void setStepLimit(int)
+    233:233:public int getTaskId()
+    239:239:public int getMeId()
+    245:245:public int getWorkflowId()
+    251:251:public int getWorkflowStepId()
+    257:257:public int getInstanceId()
+koa.android.demo.model.WFTaskModel:
+    private java.lang.String workflowId
+    24:24:public java.lang.String getWorkflowId()
+    27:28:public void setWorkflowId(java.lang.String)
+koa.android.demo.noticeListActivity:
+    private static final int LOAD_STATUS
+    private static final int SEARCH_STATUS
+    public static final int NOMAL_STATUS
+    public static final int GO_STATUS
+    public static final int CLEAR_STATUS
+koa.android.logic.CheckUser:
+    private static final int REQUEST_TIMEOUT
+    private static final int SO_TIMEOUT
+koa.android.logic.ProgressDialogHolder:
+    36:36:public java.util.List getProgressDialogList()
+    40:41:public void setProgressDialogList(java.util.List)
+koa.android.logic.PullToRefreshListView:
+    private static final int TAP_TO_REFRESH
+    private static final int PULL_TO_REFRESH
+    private static final int RELEASE_TO_REFRESH
+    private static final int REFRESHING
+    private static final int LIST_ITEM_HEIGHT
+    393:395:public void onRefreshComplete(java.lang.CharSequence)
+koa.android.tools.Base64Encoder:
+    3:3:public Base64Encoder()
+koa.android.tools.HttpResponseUtil:
+    public static final java.lang.String SERVICE_IP_LOG
+    private static final int REQUEST_TIMEOUT
+    private static final int SO_TIMEOUT
+koa.android.tools.IPAddressTools
+koa.android.tools.JsonUtil:
+    15:15:public JsonUtil()
+koa.android.tools.NetUtil:
+    12:12:public NetUtil()
+koa.android.tools.OpenDownloadFileUtil:
+    13:13:public OpenDownloadFileUtil()
+    73:79:public static android.content.Intent getVideoFileIntent(java.lang.String)
+    97:100:public static android.content.Intent getHtmlFileIntent(java.lang.String)
+koa.android.tools.SIMCardInfo
+koa.android.tools.SQLLiteUtil:
+    private static final java.lang.String TAG
+    private static final java.lang.String DATABASE_NAME
+    private static final int DATABASE_VERSION
+    private static final java.lang.String DATABASE_TABLE
+    public static final java.lang.String KEY_NAME
+    public static final java.lang.String KEY_PASSWORD
+    private static final java.lang.String CREATE_USER_TABLE
+    136:142:public android.database.Cursor fetchUser(java.lang.String)
+    152:155:public boolean updateUser(java.lang.String,java.lang.String)
+koa.android.tools.SQLLiteUtil$DatabaseHelper:
+    public static final int VERSION
+koa.android.tools.popLoadWindowHelper

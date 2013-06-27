@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wf_exam_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wf_detail_button_bar_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <LinearLayout
+        android:id="@+id/wf_top_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <include
+            android:id="@+id/process_title"
+            layout="@layout/title_two_button" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/opinion_area"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wf_top_bar"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="10dip" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/opinion_text_area"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opinion_area" >
+
+        <EditText
+            android:id="@+id/opinion_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/wf_cancal_edit_bg"
+            android:hint="@string/string_wfDetail_opinionTip"
+            android:inputType="textMultiLine"
+            android:padding="5dip"
+            android:textColor="@null"
+            android:textSize="16.0sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/wf_detail_button_bar_devider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opinion_text_area"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wf_detail_button_bar_devider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wf_detail_button_bar_devider"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/addsignBtn"
+            android:layout_width="80dip"
+            android:layout_height="30dip"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dip"
+            android:background="@drawable/wf_detail_button_bar_btn"
+            android:text="加 签"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/transBtn"
+            android:layout_width="80dip"
+            android:layout_height="30dip"
+            android:layout_margin="10dip"
+            android:layout_toLeftOf="@id/addsignBtn"
+            android:background="@drawable/wf_detail_button_bar_btn"
+            android:text="办 理"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/notivrBtn"
+            android:layout_width="80dip"
+            android:layout_height="30dip"
+            android:layout_margin="10dip"
+            android:layout_toRightOf="@id/addsignBtn"
+            android:background="@drawable/wf_detail_button_bar_btn"
+            android:text="传 阅"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

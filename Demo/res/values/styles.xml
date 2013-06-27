@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="wf_process_bar_animStyle" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@anim/wf_process_bar</item>
+    </style>
+
+    <style name="wf_detail_operate_bar_style">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/wf_detail_operate_bar_btn</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/wf_detail_operate_bar_tab_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">46dip</item>
+        <item name="android:layout_marginLeft">0.70000005dip</item>
+        <item name="android:layout_marginRight">0.70000005dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="wf_exam_button_style">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/wf_exam_radiobtn</item>
+    </style>
+
+    <style name="wf_sendnext_checkbox_style">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/wf_sendnext_checkbox</item>
+    </style>
+
+    <style name="progressBarStyleSmall" parent="@android:style/Widget.ProgressBar">
+        <item name="android:maxWidth">48.0dip</item>
+        <item name="android:maxHeight">48.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_bar</item>
+        <item name="android:minWidth">48.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="settings_pushMsg"
+        android:persistent="true"
+        android:summaryOff="关闭"
+        android:summaryOn="开启"
+        android:title="消息推送" />
+    
+	<Preference
+        android:key="settings_select_theme"
+        android:persistent="true"
+        android:title="更换主题"
+        android:widgetLayout="@layout/ui_setting_preference_screen" />
+    
+    <Preference
+        android:key="settings_select_main_bg"
+        android:persistent="true"
+        android:title="更换背景图"
+        android:widgetLayout="@layout/ui_setting_preference_screen" />
+
+    <Preference
+        android:key="settings_check_for_new_version"
+        android:persistent="true"
+        android:title="检查新版本"
+        android:widgetLayout="@layout/ui_setting_preference_screen" />
+</PreferenceScreen>

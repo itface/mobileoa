@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/aws.android/!svn/ver/86/trunk/src/koa/android/tools
+END
+IPAddressTools.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/aws.android/!svn/ver/3/trunk/src/koa/android/tools/IPAddressTools.java
+END
+LoginTimeOut.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/aws.android/!svn/ver/85/trunk/src/koa/android/tools/LoginTimeOut.java
+END
+parseXMLsymbol.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/aws.android/!svn/ver/71/trunk/src/koa/android/tools/parseXMLsymbol.java
+END
+Base64Encoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/aws.android/!svn/ver/68/trunk/src/koa/android/tools/Base64Encoder.java
+END
+NetUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/aws.android/!svn/ver/11/trunk/src/koa/android/tools/NetUtil.java
+END
+CreateSubTableHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/aws.android/!svn/ver/71/trunk/src/koa/android/tools/CreateSubTableHelper.java
+END
+popLoadWindowHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/aws.android/!svn/ver/71/trunk/src/koa/android/tools/popLoadWindowHelper.java
+END
+JsonUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/aws.android/!svn/ver/71/trunk/src/koa/android/tools/JsonUtil.java
+END
+OpenDownloadFileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/aws.android/!svn/ver/71/trunk/src/koa/android/tools/OpenDownloadFileUtil.java
+END
+CreateFieldsHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/aws.android/!svn/ver/71/trunk/src/koa/android/tools/CreateFieldsHelper.java
+END
+SQLLiteUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/aws.android/!svn/ver/68/trunk/src/koa/android/tools/SQLLiteUtil.java
+END
+SetBackGround.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/aws.android/!svn/ver/86/trunk/src/koa/android/tools/SetBackGround.java
+END
+HttpResponseUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/aws.android/!svn/ver/82/trunk/src/koa/android/tools/HttpResponseUtil.java
+END
+SIMCardInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/aws.android/!svn/ver/3/trunk/src/koa/android/tools/SIMCardInfo.java
+END

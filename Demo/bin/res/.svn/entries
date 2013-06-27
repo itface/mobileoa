@@ -1,0 +1,56 @@
+10
+
+dir
+86
+http://192.168.11.37:81/svn/aws.android/trunk/bin/res
+http://192.168.11.37:81/svn/aws.android
+delete
+
+
+2012-03-30T02:14:52.245050Z
+3
+yangdayong
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d5904be9-aede-fc43-800a-f69c0122f0f5
+
+drawable-hdpi
+dir
+
+
+
+delete
+
+drawable-ldpi
+dir
+
+
+
+delete
+
+drawable-mdpi
+dir
+
+
+
+delete
+
+drawable-xhdpi
+dir
+
+
+
+delete
+

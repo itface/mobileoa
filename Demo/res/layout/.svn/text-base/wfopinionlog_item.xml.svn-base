@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wf_detail_button_bar_bg"
+    android:orientation="vertical"
+    android:paddingBottom="8.0dip"
+    android:paddingTop="8.0dip" 
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip">
+
+	<LinearLayout
+	    android:id="@+id/wf_opinion_L1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+		<TextView
+	        android:id="@+id/wf_opinion_wfPointName"
+	        android:layout_width="190dip"
+	        android:layout_height="fill_parent"
+	        android:background="@drawable/wf_opinion_bg_1"
+	        android:gravity="center_vertical"
+	        android:padding="8dip"
+	        android:textColor="@color/black"
+	        android:textSize="16.0sp" />
+
+		<TextView
+		    android:id="@+id/wf_opinion_signDate"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:background="@drawable/wf_opinion_bg_2"
+		    android:gravity="center_vertical"
+		    android:paddingLeft="8dip"
+		    android:paddingTop="8dip"
+		    android:paddingBottom="8dip"
+		    android:singleLine="false"
+		    android:textColor="@color/black"
+		    android:textSize="16.0sp" />
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/wf_opinion_L2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/wf_opinion_L1"
+	    android:orientation="horizontal" >
+
+	    <TextView
+	        android:id="@+id/wf_opinion_userName"
+	        android:layout_width="120dip"
+	        android:layout_height="fill_parent"
+	        android:background="@drawable/wf_opinion_bg_3"
+	        android:gravity="top|left"
+	        android:padding="8dip"
+	        android:textColor="#3F8AC5"
+	        android:textSize="16.0sp" />
+
+	    <TextView
+	        android:id="@+id/wf_opinion_operation"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/wf_opinion_userName"
+	        android:background="@drawable/wf_opinion_bg_4"
+	        android:gravity="top|left"
+	        android:padding="8dip"
+	        android:singleLine="false"
+	        android:textColor="#3F8AC5"
+	        android:textSize="16.0sp" />
+	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/wf_opinion_L3"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/wf_opinion_L2"
+	    android:orientation="horizontal" >
+
+	    <TextView
+	        android:id="@+id/wf_opinion_other"
+	        android:layout_width="120dip"
+	        android:layout_height="fill_parent"
+	        android:background="@drawable/wf_opinion_bg_5"
+	        android:gravity="top|left"
+	        android:padding="8dip"
+	        android:textColor="#3F8AC5"
+	        android:textSize="16.0sp" />
+
+	    <TextView
+	        android:id="@+id/wf_opinion_message"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/wf_opinion_other"
+	        android:background="@drawable/wf_opinion_bg_6" 
+	        android:gravity="top|left"
+	        android:padding="8dip"
+	        android:singleLine="false"
+	        android:textColor="#3F8AC5"
+	        android:textSize="16.0sp" />
+	</LinearLayout>
+
+</RelativeLayout>

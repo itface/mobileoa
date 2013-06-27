@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wf_all_mainRelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wf_detail_button_bar_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/wf_top_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <include
+            android:id="@+id/process_title"
+            layout="@layout/title_two_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wf_read_process_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10.0dip"
+        android:orientation="vertical"
+        android:background="@drawable/progress_bar_bg"
+        android:paddingBottom="10.0dip"
+        android:paddingTop="20.0dip" >
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="@style/progressBarStyleSmall"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/progress_msg"
+            android:layout_width="120.0dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progress"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center"
+            android:text="正在加载"
+            android:textColor="@android:color/white"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/wf_top_bar"
+        android:background="@drawable/wf_detail_button_bar_bg"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/wf_detail_button_bar_bg"
+        android:drawSelectorOnTop="false"
+        android:scrollbars="vertical"
+        android:visibility="gone" />
+
+</RelativeLayout>

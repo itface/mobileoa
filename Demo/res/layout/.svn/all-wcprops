@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/aws.android/!svn/ver/86/trunk/res/layout
+END
+wf_cancel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/aws.android/!svn/ver/72/trunk/res/layout/wf_cancel.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/aws.android/!svn/ver/86/trunk/res/layout/main.xml
+END
+setting_service_ip.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/aws.android/!svn/ver/72/trunk/res/layout/setting_service_ip.xml
+END
+wf_exam.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/aws.android/!svn/ver/86/trunk/res/layout/wf_exam.xml
+END
+wfopinionlog_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/aws.android/!svn/ver/79/trunk/res/layout/wfopinionlog_item.xml
+END
+list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/aws.android/!svn/ver/79/trunk/res/layout/list_item.xml
+END
+exitdialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/aws.android/!svn/ver/44/trunk/res/layout/exitdialog.xml
+END
+wf_list_search_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/aws.android/!svn/ver/69/trunk/res/layout/wf_list_search_header.xml
+END
+pull_to_refresh_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/aws.android/!svn/ver/69/trunk/res/layout/pull_to_refresh_header.xml
+END
+title_two_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/aws.android/!svn/ver/82/trunk/res/layout/title_two_button.xml
+END
+ui_setting_preference_screen.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/aws.android/!svn/ver/69/trunk/res/layout/ui_setting_preference_screen.xml
+END
+wfpage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/aws.android/!svn/ver/72/trunk/res/layout/wfpage.xml
+END
+xlistview_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/aws.android/!svn/ver/79/trunk/res/layout/xlistview_footer.xml
+END
+menuitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/aws.android/!svn/ver/72/trunk/res/layout/menuitem.xml
+END
+ui_setting_frame.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/aws.android/!svn/ver/69/trunk/res/layout/ui_setting_frame.xml
+END
+sendnext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/aws.android/!svn/ver/82/trunk/res/layout/sendnext.xml
+END
+list_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/aws.android/!svn/ver/69/trunk/res/layout/list_footer.xml
+END
+addsigndialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/aws.android/!svn/ver/69/trunk/res/layout/addsigndialog.xml
+END
+todolistall.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/aws.android/!svn/ver/72/trunk/res/layout/todolistall.xml
+END
+wf_formview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/aws.android/!svn/ver/64/trunk/res/layout/wf_formview.xml
+END
+ui_setting_select_theme.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/aws.android/!svn/ver/72/trunk/res/layout/ui_setting_select_theme.xml
+END
+wf_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/aws.android/!svn/ver/72/trunk/res/layout/wf_detail.xml
+END
+wf_sublist_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/aws.android/!svn/ver/69/trunk/res/layout/wf_sublist_item.xml
+END
+todolist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/aws.android/!svn/ver/72/trunk/res/layout/todolist.xml
+END
+load_progress.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/aws.android/!svn/ver/72/trunk/res/layout/load_progress.xml
+END
+wfpage_read.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/aws.android/!svn/ver/72/trunk/res/layout/wfpage_read.xml
+END
+wfopinionlog_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/aws.android/!svn/ver/72/trunk/res/layout/wfopinionlog_list.xml
+END
+xlistview_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/aws.android/!svn/ver/79/trunk/res/layout/xlistview_header.xml
+END
+login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/aws.android/!svn/ver/72/trunk/res/layout/login.xml
+END
+wf_help_inputuserid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/aws.android/!svn/ver/72/trunk/res/layout/wf_help_inputuserid.xml
+END
+todolist_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/aws.android/!svn/ver/72/trunk/res/layout/todolist_item.xml
+END
